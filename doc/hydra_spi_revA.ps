@@ -1,0 +1,1053 @@
+%!PS-Adobe-3.0
+%%Title: hydra_spi_revA.ps
+%%Creator: XCircuit v3.8 rev40
+%%CreationDate: Fri Sep 20 17:38:29 2013
+%%Pages: 5
+%%BoundingBox: 0 0 612 792
+%%DocumentNeededResources: font Times-Roman Times-Italic 
+%%EndComments
+%%BeginProlog
+%
+%  PostScript prolog for output from xcircuit
+%  Version: 3.8
+%
+%  Electrical circuit (and otherwise general) drawing program
+%
+%  Written by Tim Edwards 8/5/93--11/1/10  (tim.edwards@multigig.com)
+%  The Johns Hopkins University (1993-2004)
+%  MultiGiG, Inc. (2004-2012)
+%
+%%BeginResource: procset XCIRCproc 3.8 0
+%
+% supporting definitions --- these are the primary xcircuit types.
+
+/XCIRCsave save def
+/topmat matrix currentmatrix def
+
+/fontslant { /slant exch def [1 0 slant 1 0 0] 
+    exch findfont exch makefont dup length dict /ndict exch def
+    { 1 index /FID ne { ndict 3 1 roll put } { pop pop } ifelse } forall
+    ndict definefont pop} def
+/ul { dup type /stringtype eq showflag 1 eq and { gsave 
+   currentpoint topmat setmatrix 0 0 moveto 2 index stringwidth pop (_)
+   false charpath flattenpath pathbbox grestore exch pop 1 index
+   sub setlinewidth exch pop currentpoint 3 -1 roll add moveto 0
+   rlineto stroke moveto } if } def
+/ol { dup type /stringtype eq showflag 1 eq and { gsave gsave
+   currentpoint topmat setmatrix 2 index stringwidth pop 3 index
+   true charpath flattenpath pathbbox grestore exch pop
+   exch pop topmat setmatrix (_) true charpath pathbbox grestore
+   exch pop 1 index sub setlinewidth exch pop currentpoint
+   exch 4 1 roll exch sub add moveto pop 0 rlineto stroke
+   moveto } if } def
+/stW { gsave currentpoint newpath moveto true charpath flattenpath
+	pathbbox pop exch pop sub grestore } def
+/Ts {mark Tabs aload pop counttomark 1 add array astore /Tabs exch def Tabs
+	0 currentpoint pop put} def
+/Tbn {mark Tabs aload pop counttomark dup 2 add 1 roll cleartomark 1 sub} def
+/Tb { 0 1 Tbn {Tabs exch get dup currentpoint pop lt
+	{currentpoint exch pop moveto exit} {pop} ifelse } for } def
+/Tf { Tbn -1 0 {Tabs exch get dup currentpoint pop gt
+	{currentpoint exch pop moveto exit} {pop} ifelse } for } def
+/qS { (aa) stW (a a) stW sub 4 div 0 Kn } def
+/hS { qS qS } def
+/pspc 0 def
+/cf0 { scalefont setfont } bind def
+/Kn { dup kY add /kY exch def rmoveto } bind def
+/ss { /fscale fscale 0.67 mul def currentfont 0.67 cf0 0 fscale0 fscale mul
+	0.33 mul neg Kn} def
+/Ss { /fscale fscale 0.67 mul def currentfont 0.67 cf0 0 fscale0 fscale mul
+	0.67 mul Kn } def
+/ns { 0 kY neg Kn /kY 0 def /fscale 1.0 def xfont0 1.0 cf0 } def
+/MR { /twidth exch def } def
+/CR { ns 0 /Bline Bline fscale0 neg add def Bline moveto } def
+/cf { dup type /realtype ne {1.0} if exch findfont exch kY 0 eq
+	{ 40 mul dup /fscale0 exch def cf0 /xfont0 currentfont def}
+	{fscale0 mul fscale mul cf0} ifelse } def
+/ctmk { counttomark dup 2 add -1 roll pop } bind def
+/label { gsave translate 0 0 moveto dup scale neg
+	/rotval exch def /twidth 100000 def /just exch def just 384 and
+	0 gt {/mshow {pop} def} {/mshow {show} def} ifelse just 16 and 0
+	gt {gsave rotval rotate 0 1 dtransform gsave pagemat setmatrix
+	idtransform exch grestore 1 0 dtransform gsave pagemat setmatrix
+	idtransform exch grestore dup abs 1e-9 lt {pop mul 0 gt} {3 1 roll
+	pop pop 0 lt} ifelse grestore {-1 /rotval rotval neg def /just just
+	dup 3 and 1 ne {3 xor} if def} {1} ifelse exch -1e-9 lt {-1 /rotval
+	rotval neg def /just just dup 12 and 4 ne {12 xor} if def} {1}
+	ifelse scale } if /showflag 0 def /fspc pspc def /Bline 0 def /Tabs
+	0 array def /fscale 1.0 def /kY 0 def gsave dup 1 add copy dup
+	1 0 dtransform exch atan rotate {exch dup type /stringtype eq {gsave
+        dup gsave newpath 0 0 moveto true charpath flattenpath pathbbox pop
+	exch pop exch pop grestore currentpoint pop add twidth
+	ge {grestore CR exch 1 add dup 2 add {CR} exch 1 roll exch} {grestore}
+	ifelse true charpath flattenpath} {dup type /arraytype eq {exec} {12
+	string cvs true charpath flattenpath} ifelse} ifelse} repeat exch pop
+	pathbbox grestore 3 -1 roll pop 3 1 roll just 1 and 0 gt {just 2 and
+	0 gt {exch pop neg fspc sub} {exch sub 0.5 mul neg} ifelse} {pop neg
+	fspc add} ifelse exch Bline exch just 4 and 0 gt {just 8 and 0 gt
+	{exch pop neg fspc sub} {add 0.5 mul neg} ifelse} {pop neg fspc add}
+	ifelse rotval rotate Kn currentpoint translate /showflag 1 def /Bline
+	0 def /Tabs 0 array def /fscale 1.0 def /kY 0 def {dup type
+	/stringtype eq {mshow} {dup type /arraytype eq {exec} {12 string cvs
+	mshow} ifelse} ifelse} repeat grestore endclip} def
+/pinlabel { 4 index 32 and 0 ne hlevel 0 eq or { /pspc 10 def label
+	/pspc 0 def } { pop pop pop pop pop {pop} repeat } ifelse } def
+/pinglobal { pinlabel } def
+/infolabel { pinlabel } def
+/graphic { gsave 4 index cvx exec /DataSource get resetfile translate 0 0
+	moveto neg rotate dup scale cvx exec image grestore endclip} def
+
+/scb { setrgbcolor } bind def  /sce { defColor aload pop scb } bind def
+/cRedef {/defColor currentcolor 3 array astore def} def
+/begingate {dup type /dicttype ne {1 dict} if begin	% default params
+	dup type /dicttype ne {1 dict} if begin		% instanced params
+	/hlevel hlevel 1 add def /defColor currentcolor sce 3 array astore
+	def gsave sce translate 0 0 moveto neg rotate dup type /nametype
+	eq not { dup abs currentlinewidth exch div setlinewidth } { pop }
+	ifelse dup abs scale clipped 1 and 1 eq {/clipped clipped 1 add def}
+	if} bind def
+/endgate { /hlevel hlevel 1 sub def grestore defColor aload pop cRedef
+	scb end end endclip} bind def
+
+/hlevel 0 def
+/endclip {clipped 1 and 1 eq {grestore /clipped clipped 1 sub def} if} def
+/tmpa [1 0 0 1 0 0] def
+/gar {8 8 true tmpa {<c0 c0 00 00 0c 0c 00 00>} imagemask} bind
+{8 8 true tmpa {<30 70 60 02 03 07 06 20>} imagemask} bind
+{8 8 true tmpa {<0c 1e 1e 0c c0 e1 e1 c0>} imagemask} bind
+{8 8 true tmpa {<0f 0f 0f 0f f0 f0 f0 f0>} imagemask} bind
+{8 8 true tmpa {<3f f3 e1 e1 f3 3f 1e 1e>} imagemask} bind
+{8 8 true tmpa {<df cf 8f 9f fd fc f8 f9>} imagemask} bind
+{8 8 true tmpa {<ff 3f 3f ff ff f3 f3 ff>} imagemask} bind 7 array astore def
+/ppaint { gsave clip tmpa dup setmatrix pathbbox neg exch neg 4 2 roll
+  neg 4 -1 roll 2 copy gt {exch} if 8 div ceiling 8 mul 4 2 roll neg 2 copy
+  gt {exch} if 8 div ceiling 8 mul 3 -1 roll -8 5 -1 roll
+  { 3 index exch 5 exch put dup -8 3 index { 3 index
+  exch 4 exch put 3 index exec } for } for pop pop pop pop grestore } bind def
+/setstyles {
+  currentlinewidth mul setlinewidth /style exch def style 2048 and 0 gt
+  clipped 1 and 0 eq and {clip newpath /clipped clipped 1 add def} {
+  style 1 and 0 gt not {closepath} if
+  style 1024 and 0 gt {2 setlinecap 0 setlinejoin} if
+  style 2 and 0 gt {currentlinewidth 4 mul dup 2 array astore 0 setdash} if
+  style 4 and 0 gt {0.5 currentlinewidth 4 mul 2 array astore 0 setdash} if
+  gsave style 16 and 0 gt { style 224 and -5 bitshift style 256 and 0 gt {
+  7 exch sub 8 div dup 1 exch sub currentrgbcolor 3 array astore
+  {3 copy mul add 4 1 roll pop} forall pop pop setrgbcolor eofill}
+  {dup 7 lt {gar exch get ppaint} {pop eofill} ifelse} ifelse}
+  {style 256 and 0 gt {1 setgray eofill} if} ifelse grestore style 8 and 0 gt 
+  style 512 eq or {newpath} {stroke} ifelse grestore endclip} ifelse} def     
+
+/addtoy {exch dup dup 2 mul 3 add 1 roll -1 1 { 4 1 roll dup 4 1 roll add
+	4 -1 roll 2 mul 1 add index 2 mul 2 add 2 roll} for pop} def
+/addtoy1 {1 exch addtoy pop} def
+/addtoy3 {3 exch addtoy pop} def
+/addtoy4 {4 exch addtoy pop} def
+/addtox {exch dup dup 2 mul 3 add 1 roll -1 1 { 4 1 roll dup 4 1 roll 3 -1 roll
+	add exch 4 -1 roll 2 mul 1 add index 2 mul 2 add 2 roll} for pop} def
+/addtox1 {1 exch addtox pop} def
+/addtox3 {3 exch addtox pop} def
+/addtox4 {4 exch addtox pop} def
+/polygon { gsave /num exch def moveto num 1 sub {lineto} repeat setstyles } def
+/xcarc   { gsave newpath arc setstyles } def
+/elb { matrix currentmatrix 7 -1 roll 7 -1 roll translate 5 1 roll 4 -1 roll
+	3 index div 1 scale } def
+/ele { 0 4 1 roll 0 4 1 roll } bind def
+/ellipse { gsave elb newpath ele arc setmatrix setstyles } def
+/pellip  { elb ele arc setmatrix } def
+/nellip  { elb ele arcn setmatrix } def
+/spline  { gsave moveto curveto setstyles } def
+/polyc   { {lineto} repeat } bind def
+/beginpath { gsave moveto } bind def
+/endpath { setstyles } bind def
+/bop	 { 1 setlinecap 2 setlinejoin 6 setmiterlimit 0 0 0 scb cRedef
+	/clipped 0 def} def
+/psinsertion {/PSobj save def /showpage {} def /setpagedevice {pop} def bop
+	rotate translate dup scale} def
+/end_insert {PSobj restore} def
+/setpagemat {/pagemat matrix currentmatrix def} def
+/inchscale  {setpagemat 0.375 mul dup scale} def
+/cmscale    {setpagemat 0.35433071 mul dup scale} def
+
+%%EndResource
+%%EndProlog
+
+% XCircuit output starts here.
+
+%%BeginSetup
+
+/generic::arrowhead {
+% nonetwork
+begingate
+8 -28 beginpath
+3 -18 3 -15 0 0 curveto
+-3 -15 -3 -18 -8 -28 curveto
+-2 -26 2 -26 8 -28 curveto
+249 
+1.000 endpath
+endgate
+} def
+
+/generic::dot {
+% trivial
+begingate
+248 1.000 0 0 6 0.000 360.000 xcarc
+1.000 0.000 0.000 scb
+(x) {/Times-Roman cf} 2 29 0 1.000 0 0 pinlabel
+endgate
+} def
+
+
+%%EndSetup
+
+%%Page: hydra_spi_revA 1
+%%PageOrientation: Portrait
+%%PageBoundingBox: 0 0 612 792
+/pgsave save def bop
+0.6842 inchscale
+2.6000 setlinewidth 1080 1999 translate
+
+0.679 1.000 0.184 scb
+512 1.000 -800 -1712 -800 800 1024 800 1024 -1712 4 polygon
+sce
+1 1.000 -672 576 1024 576 2 polygon
+(msb) {/Times-Roman cf} 2 17 0 0.700 -544 720 label
+(lsb) {/Times-Roman cf} 2 17 0 0.700 576 720 label
+1 1.000 -608 704 -608 -1440 2 polygon
+(manufacturer_ID[7:0]) {/Times-Roman cf} 2 21 0 0.700 32 624 label
+1 1.000 -800 384 1024 384 2 polygon
+1 1.000 -672 704 -672 -1440 2 polygon
+1 1.000 -800 704 -800 -1440 2 polygon
+(Address) {CR} (Register) {/Times-Roman cf} 4 17 0 0.700 -736 688 label
+1 1.000 -800 672 1024 672 2 polygon
+(0) {/Times-Roman cf} 2 17 0 0.700 -736 608 label
+1 1.000 -672 288 1024 288 2 polygon
+(product_ID) {/Times-Roman cf} 2 21 0 0.700 32 432 label
+(0) {/Times-Roman cf} 2 17 0 0.700 -640 608 label
+(1) {/Times-Roman cf} 2 17 0 0.700 -640 512 label
+1 1.000 -672 0 1024 0 2 polygon
+(1) {/Times-Roman cf} 2 17 0 0.700 -736 320 label
+(0) {/Times-Roman cf} 2 17 0 0.700 -640 320 label
+(0) {/Times-Roman cf} 2 17 0 0.700 -640 32 label
+1 1.000 -448 704 -448 672 2 polygon
+1 1.000 -288 704 -288 672 2 polygon
+1 1.000 -128 704 -128 672 2 polygon
+1 1.000 32 704 32 672 2 polygon
+1 1.000 192 704 192 672 2 polygon
+1 1.000 352 704 352 672 2 polygon
+1 1.000 512 704 512 672 2 polygon
+1 1.000 672 704 672 -1440 2 polygon
+(7) {/Times-Roman cf} 2 16 0 0.700 -528 688 label
+(6) {/Times-Roman cf} 2 16 0 0.700 -368 688 label
+(5) {/Times-Roman cf} 2 16 0 0.700 -208 688 label
+(4) {/Times-Roman cf} 2 16 0 0.700 -64 688 label
+(3) {/Times-Roman cf} 2 16 0 0.700 112 688 label
+(2) {/Times-Roman cf} 2 16 0 0.700 272 688 label
+(1) {/Times-Roman cf} 2 16 0 0.700 432 688 label
+(0) {/Times-Roman cf} 2 16 0 0.700 576 688 label
+1 1.000 32 384 32 288 2 polygon
+(comments) {/Times-Roman cf} 2 17 0 0.700 832 688 label
+1 1.000 1024 704 1024 -1440 2 polygon
+(read-only) {/Times-Roman cf} 2 21 0 0.700 832 624 label
+(read-only) {/Times-Roman cf} 2 21 0 0.700 832 528 label
+(read-only) {CR} (lower 4 bits) {/Times-Roman cf} 4 21 0 0.700 832 336 label
+(power-on status) {/Times-Roman cf} 2 21 0 0.700 352 336 label
+(2) {/Times-Roman cf} 2 17 0 0.700 -736 32 label
+1 1.000 -288 384 -288 288 2 polygon
+(1) {/Times-Roman cf} 2 21 0 0.700 -640 -48 label
+1 1.000 -672 -96 1024 -96 2 polygon
+(DAC0_value[7:0]) {/Times-Roman cf} 2 21 0 0.700 -16 48 label
+1 1.000 32 0 32 -96 2 polygon
+(DAC0_value[11:8]) {/Times-Roman cf} 2 21 0 0.700 352 -48 label
+1 1.000 -672 -192 1024 -192 2 polygon
+(2) {/Times-Roman cf} 2 17 0 0.700 -640 -160 label
+(3) {/Times-Roman cf} 2 21 0 0.700 -640 -240 label
+1 1.000 -800 -288 1024 -288 2 polygon
+(DAC1_value[7:0]) {/Times-Roman cf} 2 21 0 0.700 -16 -144 label
+1 1.000 32 -192 32 -288 2 polygon
+(DAC1_value[11:8]) {/Times-Roman cf} 2 21 0 0.700 352 -240 label
+0.600 0.600 0.600 scb
+(reserved) {/Times-Italic cf} 2 21 0 0.700 -336 -48 label
+(reserved) {/Times-Italic cf} 2 21 0 0.700 -336 -240 label
+sce
+1 1.000 -128 0 -128 -96 2 polygon
+(DAC0) {CR} (enable_) {/Times-Roman cf} 4 21 0 0.700 -48 -48 label
+1 1.000 -128 -192 -128 -288 2 polygon
+(DAC1) {CR} (enable_) {/Times-Roman cf} 4 21 0 0.700 -48 -240 label
+1 1.000 -672 -384 1024 -384 2 polygon
+1 1.000 -672 -480 1024 -480 2 polygon
+1 1.000 -672 -576 1024 -576 2 polygon
+1 1.000 -800 -864 1024 -864 2 polygon
+1 1.000 -672 -768 1024 -768 2 polygon
+1 1.000 -672 -672 1024 -672 2 polygon
+(0) {/Times-Roman cf} 2 17 0 0.700 -640 -352 label
+(1) {/Times-Roman cf} 2 21 0 0.700 -640 -432 label
+(2) {/Times-Roman cf} 2 17 0 0.700 -640 -544 label
+(3) {/Times-Roman cf} 2 21 0 0.700 -640 -624 label
+(4) {/Times-Roman cf} 2 21 0 0.700 -640 -720 label
+(5) {/Times-Roman cf} 2 21 0 0.700 -640 -816 label
+(ADC0_value[7:0]) {/Times-Roman cf} 2 21 0 0.700 -16 -336 label
+1 1.000 32 -384 32 -480 2 polygon
+1 1.000 32 -672 32 -768 2 polygon
+(ADC0_value[11:8]) {/Times-Roman cf} 2 21 0 0.700 336 -432 label
+(ADC1_value[7:0]) {/Times-Roman cf} 2 21 0 0.700 32 -624 label
+(ADC1_value[11:8]) {/Times-Roman cf} 2 21 0 0.700 384 -720 label
+1 1.000 512 -480 512 -576 2 polygon
+(ADC0) {CR} (enable_) {/Times-Roman cf} 4 21 0 0.700 592 -528 label
+1 1.000 512 -768 512 -864 2 polygon
+(ADC1) {CR} (enable_) {/Times-Roman cf} 4 21 0 0.700 592 -816 label
+(ADC0_input_select) {/Times-Roman cf} 2 21 0 0.700 -304 -432 label
+(ADC1_input_select) {/Times-Roman cf} 2 21 0 0.700 -304 -720 label
+1 1.000 352 -768 352 -864 2 polygon
+1 1.000 352 -480 352 -576 2 polygon
+(ADC0) {CR} (run_) {/Times-Roman cf} 4 21 0 0.700 432 -528 label
+(ADC1) {CR} (run_) {/Times-Roman cf} 4 21 0 0.700 432 -816 label
+0.600 0.600 0.600 scb
+(reserved) {/Times-Italic cf} 2 21 0 0.700 -304 -528 label
+(reserved) {/Times-Italic cf} 2 21 0 0.700 -304 -816 label
+sce
+1 1.000 32 -480 32 -576 2 polygon
+(ADC0_vref_select) {/Times-Roman cf} 2 21 0 0.700 192 -528 label
+1 1.000 32 -768 32 -864 2 polygon
+(ADC1_vref_select) {/Times-Roman cf} 2 21 0 0.700 192 -816 label
+(3) {/Times-Roman cf} 2 17 0 0.700 -736 -352 label
+(4) {/Times-Roman cf} 2 17 0 0.700 -736 -928 label
+1 1.000 -672 -960 1024 -960 2 polygon
+1 1.000 512 -864 512 -960 2 polygon
+1 1.000 32 -864 32 -960 2 polygon
+(bandgap_trim) {/Times-Roman cf} 2 21 0 0.700 -304 -912 label
+(Vref0) {CR} (enable_) {/Times-Roman cf} 4 21 0 0.700 592 -912 label
+(Vref0_value) {/Times-Roman cf} 2 21 0 0.700 256 -912 label
+1 1.000 -800 -1056 1024 -1056 2 polygon
+1 1.000 512 -960 512 -1056 2 polygon
+1 1.000 32 -960 32 -1056 2 polygon
+(Vref1) {CR} (enable_) {/Times-Roman cf} 4 21 0 0.700 592 -1008 label
+(Vref1_value) {/Times-Roman cf} 2 21 0 0.700 256 -1008 label
+(0) {/Times-Roman cf} 2 17 0 0.700 -640 -928 label
+(1) {/Times-Roman cf} 2 21 0 0.700 -640 -1008 label
+(read-only) {/Times-Roman cf} 2 21 0 0.700 848 -336 label
+(read-only) {CR} (lower 4 bits) {/Times-Roman cf} 4 21 0 0.700 848 -432 label
+(read-only) {CR} (lower 4 bits) {/Times-Roman cf} 4 21 0 0.700 848 -720 label
+(read-only) {/Times-Roman cf} 2 21 0 0.700 848 -624 label
+0.600 0.600 0.600 scb
+(reserved) {/Times-Italic cf} 2 21 0 0.700 -304 -1008 label
+sce
+1 1.000 -672 -1152 1024 -1152 2 polygon
+1 1.000 -800 -1248 1024 -1248 2 polygon
+(5) {/Times-Roman cf} 2 17 0 0.700 -736 -1120 label
+(0) {/Times-Roman cf} 2 17 0 0.700 -640 -1120 label
+(1) {/Times-Roman cf} 2 21 0 0.700 -640 -1200 label
+1 1.000 32 -1152 32 -1248 2 polygon
+1 1.000 32 -1056 32 -1152 2 polygon
+1 1.000 512 -1056 512 -1152 2 polygon
+(LDO0_value) {/Times-Roman cf} 2 21 0 0.700 256 -1104 label
+1 1.000 512 -1152 512 -1248 2 polygon
+(LDO1) {CR} (enable_) {/Times-Roman cf} 4 21 0 0.700 592 -1200 label
+(LDO1_value) {/Times-Roman cf} 2 21 0 0.700 256 -1200 label
+(LDO0) {CR} (enable_) {/Times-Roman cf} 4 21 0 0.700 592 -1104 label
+(6) {/Times-Roman cf} 2 17 0 0.700 -736 -1312 label
+1 1.000 -672 -1344 1024 -1344 2 polygon
+(0) {/Times-Roman cf} 2 17 0 0.700 -640 -1312 label
+(1) {/Times-Roman cf} 2 21 0 0.700 -640 -1392 label
+1 1.000 512 -1248 512 -1344 2 polygon
+(Iref0) {CR} (enable_) {/Times-Roman cf} 4 21 0 0.700 592 -1296 label
+(Iref0_value) {/Times-Roman cf} 2 21 0 0.700 256 -1296 label
+1 1.000 512 -1344 512 -1440 2 polygon
+(Iref1) {CR} (enable_) {/Times-Roman cf} 4 21 0 0.700 592 -1392 label
+(Iref1_value) {/Times-Roman cf} 2 21 0 0.700 256 -1392 label
+1 1.000 32 -1248 32 -1344 2 polygon
+1 1.000 32 -1344 32 -1440 2 polygon
+0.600 0.600 0.600 scb
+(reserved) {/Times-Italic cf} 2 21 0 0.700 -304 -1104 label
+(reserved) {/Times-Italic cf} 2 21 0 0.700 -304 -1200 label
+(reserved) {/Times-Italic cf} 2 21 0 0.700 -304 -1296 label
+(reserved) {/Times-Italic cf} 2 21 0 0.700 -304 -1392 label
+sce
+(Hydra rev0 SPI register definition:) {/Times-Roman cf} 2 28 0 0.700 -800 800 
+label
+1 1.000 -800 -1440 1024 -1440 2 polygon
+1 1.000 -800 96 1024 96 2 polygon
+1 1.000 -672 192 1024 192 2 polygon
+1 1.000 512 288 512 192 2 polygon
+1 1.000 512 192 512 96 2 polygon
+(timer0_ringosc_freq) {/Times-Roman cf} 2 21 0 0.700 -128 336 label
+(timer1_ringosc_freq) {/Times-Roman cf} 2 21 0 0.700 -448 336 label
+(enable) {CR} (timer0_) {/Times-Roman cf} 4 21 0 0.700 592 240 label
+(enable) {CR} (timer1_) {/Times-Roman cf} 4 21 0 0.700 576 144 label
+(timer0_count) {/Times-Roman cf} 2 21 0 0.700 -128 240 label
+(timer1_count) {/Times-Roman cf} 2 21 0 0.700 -128 144 label
+(1) {/Times-Roman cf} 2 21 0 0.700 -640 240 label
+(2) {/Times-Roman cf} 2 17 0 0.700 -640 128 label
+1 1.000 -672 480 1024 480 2 polygon
+(2) {/Times-Roman cf} 2 17 0 0.700 -640 416 label
+0.934 0.604 0.000 scb
+{/Times-Roman cf} 1 16 0 0.700 0 336 label
+sce
+(mask revision) {/Times-Roman cf} 2 21 0 0.700 -288 528 label
+1 1.000 32 576 32 480 2 polygon
+(manufacturer_ID[11:8]) {/Times-Roman cf} 2 21 0 0.700 336 528 label
+(read-only) {/Times-Roman cf} 2 21 0 0.700 832 432 label
+pgsave restore showpage
+
+%%Page: hydra_spi_revA 2
+%%PageOrientation: Portrait
+%%PageBoundingBox: 0 0 612 792
+/pgsave save def bop
+0.6842 inchscale
+2.6000 setlinewidth 1080 1487 translate
+
+0.679 1.000 0.184 scb
+512 1.000 -800 -1200 -800 1312 1024 1312 1024 -1200 4 polygon
+sce
+(msb) {/Times-Roman cf} 2 17 0 0.700 -544 1232 label
+(lsb) {/Times-Roman cf} 2 17 0 0.700 576 1232 label
+1 1.000 -608 1216 -608 416 2 polygon
+1 1.000 -672 1216 -672 416 2 polygon
+1 1.000 -800 1216 -800 416 2 polygon
+(Address) {CR} (Register) {/Times-Roman cf} 4 17 0 0.700 -736 1200 label
+1 1.000 -800 1184 1024 1184 2 polygon
+1 1.000 -448 1216 -448 1184 2 polygon
+1 1.000 -288 1216 -288 1184 2 polygon
+1 1.000 -128 1216 -128 1184 2 polygon
+1 1.000 32 1216 32 1184 2 polygon
+1 1.000 192 1216 192 1184 2 polygon
+1 1.000 352 1216 352 1184 2 polygon
+1 1.000 512 1216 512 1184 2 polygon
+1 1.000 672 1216 672 416 2 polygon
+(7) {/Times-Roman cf} 2 16 0 0.700 -528 1200 label
+(6) {/Times-Roman cf} 2 16 0 0.700 -368 1200 label
+(5) {/Times-Roman cf} 2 16 0 0.700 -208 1200 label
+(4) {/Times-Roman cf} 2 16 0 0.700 -64 1200 label
+(3) {/Times-Roman cf} 2 16 0 0.700 112 1200 label
+(2) {/Times-Roman cf} 2 16 0 0.700 272 1200 label
+(1) {/Times-Roman cf} 2 16 0 0.700 432 1200 label
+(0) {/Times-Roman cf} 2 16 0 0.700 576 1200 label
+(comments) {/Times-Roman cf} 2 17 0 0.700 832 1200 label
+1 1.000 1024 1216 1024 416 2 polygon
+(Hydra rev0 SPI register definition:) {/Times-Roman cf} 2 28 0 0.700 -800 1312 
+label
+1 1.000 -672 704 1024 704 2 polygon
+(9) {/Times-Roman cf} 2 17 0 0.700 -736 736 label
+(0) {/Times-Roman cf} 2 17 0 0.700 -640 736 label
+(1) {/Times-Roman cf} 2 17 0 0.700 -640 640 label
+1 1.000 -800 992 1024 992 2 polygon
+1 1.000 512 800 512 704 2 polygon
+1 1.000 512 704 512 608 2 polygon
+(OpAmp0) {CR} (enable_) {/Times-Roman cf} 4 21 0 0.700 592 752 label
+(OpAmp1) {CR} (enable_) {/Times-Roman cf} 4 21 0 0.700 592 656 label
+1 1.000 32 800 32 704 2 polygon
+1 1.000 32 704 32 608 2 polygon
+(OpAmp0_input_select) {/Times-Roman cf} 2 21 0 0.700 272 752 label
+(OpAmp1_input_select) {/Times-Roman cf} 2 21 0 0.700 272 656 label
+0.600 0.600 0.600 scb
+(reserved) {/Times-Italic cf} 2 21 0 0.700 -288 752 label
+(reserved) {/Times-Italic cf} 2 21 0 0.700 -288 656 label
+sce
+(10) {/Times-Roman cf} 2 17 0 0.700 -736 544 label
+1 1.000 -672 512 1024 512 2 polygon
+1 1.000 -800 416 1024 416 2 polygon
+(0) {/Times-Roman cf} 2 17 0 0.700 -640 544 label
+(1) {/Times-Roman cf} 2 17 0 0.700 -640 448 label
+1 1.000 512 608 512 512 2 polygon
+1 1.000 512 512 512 416 2 polygon
+(TempSens0) {CR} (enable_) {/Times-Roman cf} 4 21 0 0.700 592 560 label
+(TempSens1) {CR} (enable_) {/Times-Roman cf} 4 21 0 0.700 592 464 label
+0.600 0.600 0.600 scb
+(reserved) {/Times-Italic cf} 2 21 0 0.700 -80 560 label
+(reserved) {/Times-Italic cf} 2 21 0 0.700 -80 464 label
+sce
+1 1.000 -672 896 1024 896 2 polygon
+1 1.000 512 896 512 800 2 polygon
+1 1.000 512 992 512 896 2 polygon
+(Buf0) {CR} (enable_) {/Times-Roman cf} 4 21 0 0.700 592 944 label
+(Buf1) {CR} (enable_) {/Times-Roman cf} 4 21 0 0.700 592 848 label
+1 1.000 192 992 192 800 2 polygon
+(Buf0_mode) {/Times-Roman cf} 2 21 0 0.700 352 944 label
+(Buf1_mode) {/Times-Roman cf} 2 21 0 0.700 352 848 label
+0.600 0.600 0.600 scb
+(reserved) {/Times-Italic cf} 2 21 0 0.700 -256 944 label
+(reserved) {/Times-Italic cf} 2 21 0 0.700 -256 848 label
+sce
+(8) {/Times-Roman cf} 2 17 0 0.700 -736 928 label
+(0) {/Times-Roman cf} 2 17 0 0.700 -640 928 label
+(1) {/Times-Roman cf} 2 21 0 0.700 -640 848 label
+1 1.000 -800 800 1024 800 2 polygon
+1 1.000 -672 1088 1024 1088 2 polygon
+(7) {/Times-Roman cf} 2 17 0 0.700 -736 1104 label
+1 1.000 512 1088 512 992 2 polygon
+1 1.000 512 1184 512 1088 2 polygon
+(PWM0) {CR} (enable_) {/Times-Roman cf} 4 21 0 0.700 592 1136 label
+(PWM1) {CR} (enable_) {/Times-Roman cf} 4 21 0 0.700 592 1040 label
+1 1.000 -128 1184 -128 1088 2 polygon
+(PWM0_input_source) {/Times-Roman cf} 2 21 0 0.700 176 1136 label
+(PWM1_input_source) {/Times-Roman cf} 2 21 0 0.700 176 1040 label
+1 1.000 -128 1088 -128 992 2 polygon
+0.600 0.600 0.600 scb
+(reserved) {/Times-Italic cf} 2 21 0 0.700 -368 1136 label
+(reserved) {/Times-Italic cf} 2 21 0 0.700 -368 1040 label
+sce
+(0) {/Times-Roman cf} 2 17 0 0.700 -640 1120 label
+(1) {/Times-Roman cf} 2 21 0 0.700 -640 1040 label
+1 1.000 -800 608 1024 608 2 polygon
+1 1.000 -128 800 -128 704 2 polygon
+1 1.000 -128 704 -128 608 2 polygon
+(out) {CR} (Comp0_) {/Times-Roman cf} 4 21 0 0.700 -48 752 label
+(out) {CR} (Comp1_) {/Times-Roman cf} 4 21 0 0.700 -48 656 label
+(Bit 4 is read-only) {/Times-Roman cf} 2 20 0 0.700 720 752 label
+(Bit 4 is read-only) {/Times-Roman cf} 2 20 0 0.700 720 656 label
+pgsave restore showpage
+
+%%Page: hydra_spi_revA 3
+%%PageOrientation: Portrait
+%%PageBoundingBox: 0 0 612 792
+/pgsave save def bop
+0.6341 inchscale
+2.6000 setlinewidth 1230 2401 translate
+
+(SPI protocol definition) {/Times-Roman cf} 2 16 0 0.700 -928 544 label
+1 1.000 -928 512 1040 512 2 polygon
+(Table 1:  Command words) {/Times-Roman cf} 2 16 0 0.700 -928 -496 label
+1 1.000 -928 -512 1040 -512 2 polygon
+(0000) {/Times-Roman cf} 2 16 0 0.700 -928 -544 label
+(No operation) {/Times-Roman cf} 2 16 0 0.700 -640 -544 label
+(0001) {/Times-Roman cf} 2 16 0 0.700 -928 -576 label
+(0010) {/Times-Roman cf} 2 16 0 0.700 -928 -608 label
+(Write) {/Times-Roman cf} 2 16 0 0.700 -640 -576 label
+(Read) {/Times-Roman cf} 2 16 0 0.700 -640 -608 label
+(Simultaneous Read/Write) {/Times-Roman cf} 2 16 0 0.700 -640 -640 label
+(0011) {/Times-Roman cf} 2 16 0 0.700 -928 -640 label
+(0100) {/Times-Roman cf} 2 16 0 0.700 -928 -672 label
+(0101) {/Times-Roman cf} 2 16 0 0.700 -928 -704 label
+(Write, 12-bit address) {/Times-Roman cf} 2 16 0 0.700 -640 -704 label
+(Device reset) {/Times-Roman cf} 2 16 0 0.700 -640 -672 label
+(0110) {/Times-Roman cf} 2 16 0 0.700 -928 -736 label
+(Read, 12-bit address) {/Times-Roman cf} 2 16 0 0.700 -640 -736 label
+(0111) {/Times-Roman cf} 2 16 0 0.700 -928 -768 label
+(Simultaneous Read/Write, 12-bit address) {/Times-Roman cf} 2 16 0 0.700 -640 
+-768 label
+(1000) {/Times-Roman cf} 2 16 0 0.700 -928 -800 label
+(Query register length) {/Times-Roman cf} 2 16 0 0.700 -640 -800 label
+(1001) {/Times-Roman cf} 2 16 0 0.700 -928 -832 label
+(Address offset Read/Write) {/Times-Roman cf} 2 16 0 0.700 -640 -832 label
+{Tf} {Tf} (1010) {/Times-Roman cf} 4 16 0 0.700 -928 -864 label
+(Device program \(if applicable\)) {/Times-Roman cf} 2 16 0 0.700 -640 -864 
+label
+{Tf} {Tf} (1011) {/Times-Roman cf} 4 16 0 0.700 -928 -896 label
+(Device standby \(if implemented\)) {/Times-Roman cf} 2 16 0 0.700 -640 -896 
+label
+(1100) {/Times-Roman cf} 2 16 0 0.700 -928 -928 label
+(1101) {/Times-Roman cf} 2 16 0 0.700 -928 -960 label
+(1110) {/Times-Roman cf} 2 16 0 0.700 -928 -992 label
+(1111) {/Times-Roman cf} 2 16 0 0.700 -928 -1024 label
+(Extended command protocol \(device-dependent\)) {/Times-Roman cf} 2 16 0 0.700 
+-640 -1024 label
+(Reserved) {/Times-Italic cf} 2 16 0 0.700 -640 -960 label
+(Reserved) {/Times-Italic cf} 2 16 0 0.700 -640 -992 label
+1 1.000 -928 -1040 1040 -1040 2 polygon
+{/Times-Roman cf} 1 16 0 0.700 -368 -512 label
+(SPI protocol flags) {/Times-Roman cf} 2 16 0 0.700 -640 -928 label
+(All input is in groups of 8 bits.  Each byte is input msb first.) 
+{/Times-Roman cf} 2 16 0 0.700 -928 448 label
+
+(The first byte of a command always comprises 4 bits of a command word in the lower four bits.  The upper four bits are command-dependent.) 
+{/Times-Roman cf} 2 16 0 0.700 -928 224 label
+
+(on the rising edge of SCK by applying a command word to the SPI \(see below\).) 
+{CR} 
+(line.  SDO is held high-impedance when CSB is high.  SDO outputs become active on the falling edge of SCK.  SPI definition allows this to be changed to SDO active) 
+{CR} 
+(CSB pin must be low to enable an SPI transmission.  Data are clocked by pin SCK, with data valid on the rising edge of SCK.  Output data are received on the SDO) 
+{/Times-Roman cf} 6 28 0 0.700 -928 416 label
+
+(After CSB is set low, the SPI is always in the "idle" state, awaiting a new command.) 
+{/Times-Roman cf} 2 28 0 0.700 -928 304 label
+(register, or \(in streaming modes\) an arbitrary number of bytes. ) {CR} 
+(Depending on the command word, the command byte may be followed by one byte, two bytes, a number of bytes equal to the size in bytes of the addressed) 
+{/Times-Roman cf} 4 16 0 0.700 -928 128 label
+(address space has been reached, or the CSB pin is pulled high.) {CR} 
+(All commands except streaming modes \(read, write, and read/write\) end after a predetermined number of bytes.  Streaming modes end only after the end of the) 
+{/Times-Roman cf} 4 28 0 0.700 -928 96 label
+
+(the address space is continuous, with the first byte of each register occupying the address following the last byte of the previous register.) 
+{CR} 
+(For all read, write, and read/write commands, the address auto-increments by one for each byte read or written \(i.e., every 8 SCK cycles\).  In streaming modes,) 
+{/Times-Roman cf} 4 28 0 0.700 -928 -144 label
+
+(After the last defined byte has been read or written, the SPI returns to the idle state.  ) 
+{CR} 
+(Commands that specify only a register value will read to, or write from, the entire register beginning at the first byte and continuing to the last defined byte.) 
+{CR} 
+(register address,  Each register defines an arbitrarily large number of bytes, which are numbered from zero up, and are accessed in series from position zero.) 
+{CR} 
+(The address space is divided into registers and bytes.  Registers are numbered 0 to 15 and are addressed by the upper four bits of commands that require a) 
+{/Times-Roman cf} 8 28 0 0.700 -928 0 label
+(of both values.) {CR} 
+(reading and/or writing data.  If this byte is value 255 \(all ones\), then it is followed by an additional byte, and the starting byte offset address is the addition) 
+{CR} 
+(For streaming mode commands, an additional byte is sent after the command/register byte, specifying a byte offset position in the register at which to begin) 
+{/Times-Roman cf} 6 28 0 0.700 -928 -224 label
+(The 4-bit command words defined by the protocol are as follows:) 
+{/Times-Roman cf} 2 28 0 0.700 -928 -352 label
+0.679 1.000 0.184 scb
+512 1.000 -928 -2096 -928 624 1040 624 1040 -2096 4 polygon
+pgsave restore showpage
+
+%%Page: hydra_spi_revA 4
+%%PageOrientation: Portrait
+%%PageBoundingBox: 0 0 612 792
+/pgsave save def bop
+0.6341 inchscale
+2.6000 setlinewidth 1294 1761 translate
+
+0.679 1.000 0.184 scb
+512 1.000 -992 -1456 -992 1264 976 1264 976 -1456 4 polygon
+sce
+(No operation:) {/Times-Roman cf} 2 16 0 0.700 -992 1152 label
+(XX000000) {/Times-Roman cf} 2 16 360 0.700 -736 1152 label
+
+(Address field is ignored.  Command is one byte only.  SPI returns to idle.  Upper two bits are always ignored.) 
+{/Times-Roman cf} 2 28 0 0.700 -448 1168 label
+(Write:) {/Times-Roman cf} 2 16 0 0.700 -992 992 label
+(AAAA0001) {/Times-Roman cf} 2 16 0 0.700 -736 992 label
+(dddddddd) {/Times-Roman cf} 2 16 0 0.700 -736 960 label
+(dddddddd) {/Times-Roman cf} 2 16 0 0.700 -736 928 label
+(dddddddd) {/Times-Roman cf} 2 16 0 0.700 -736 848 label
+(. . .) {/Times-Roman cf} 2 21 90 0.700 -672 896 label
+
+(register.  Register lengths are device-dependent.  At the end of data, the SPI returns to idle.) 
+{CR} 
+(Address is 4 bits and defines a major address.  Data are passed in the following bytes, up to the defined length of the) 
+{/Times-Roman cf} 4 28 0 0.700 -448 1008 label
+(Read:) {/Times-Roman cf} 2 16 0 0.700 -992 784 label
+(AAAA0010) {/Times-Roman cf} 2 16 0 0.700 -736 784 label
+(. . .) {/Times-Roman cf} 2 21 90 0.700 -672 688 label
+(XXXXXXXX) {/Times-Roman cf} 2 16 0 0.700 -736 752 label
+(XXXXXXXX) {/Times-Roman cf} 2 16 0 0.700 -736 720 label
+(XXXXXXXX) {/Times-Roman cf} 2 16 0 0.700 -736 640 label
+(lengths are device-dependent.  At the end of data, the SPI returns to idle.) 
+{CR} 
+(8 bits clocked through SCK, register data are returned in SDO, up to the defined length of the register.  Register) 
+{CR} 
+(Address is 4 bits and defines a major address.  Data on SDI following the address/command byte are ignored.  For each) 
+{/Times-Roman cf} 6 16 0 0.700 -448 640 label
+(Read/Write:) {CR} (Simultaneous) {/Times-Roman cf} 4 16 0 0.700 -992 544 label
+(AAAA0011) {/Times-Roman cf} 2 16 0 0.700 -736 560 label
+(dddddddd) {/Times-Roman cf} 2 16 0 0.700 -736 528 label
+(dddddddd) {/Times-Roman cf} 2 16 0 0.700 -736 496 label
+(dddddddd) {/Times-Roman cf} 2 16 0 0.700 -736 416 label
+(. . .) {/Times-Roman cf} 2 21 90 0.700 -672 464 label
+{CR} (from SDI and applied to the register.) {CR} 
+(Combines the read and write functions.  Existing register data are output to SDO, while new data are read by the slave) 
+{/Times-Roman cf} 5 28 0 0.700 -448 576 label
+(Device reset:) {/Times-Roman cf} 2 16 0 0.700 -992 352 label
+(00000100) {/Times-Roman cf} 2 16 0 0.700 -736 352 label
+(state.) {CR} 
+(The implementation of a hard reset is device-dependent, but generally will force the device to the initial power-up) 
+{/Times-Roman cf} 4 28 0 0.700 -448 368 label
+(pppp0100) {/Times-Roman cf} 2 16 0 0.700 -736 272 label
+(Special reset:) {/Times-Roman cf} 2 16 0 0.700 -992 272 label
+(The device may define device-dependent specific reset states pppp = 1 to 14) 
+{/Times-Roman cf} 2 28 0 0.700 -448 288 label
+(address:) {CR} (Write, 12-bit) {/Times-Roman cf} 4 28 0 0.700 -992 224 label
+(AAAA0101) {/Times-Roman cf} 2 16 0 0.700 -736 192 label
+(aaaaaaaa) {/Times-Roman cf} 2 16 0 0.700 -736 160 label
+(dddddddd) {/Times-Roman cf} 2 16 0 0.700 -736 128 label
+(dddddddd) {/Times-Roman cf} 2 16 0 0.700 -736 96 label
+(dddddddd) {/Times-Roman cf} 2 16 0 0.700 -736 16 label
+(. . .) {/Times-Roman cf} 2 21 90 0.700 -672 64 label
+
+(further address data, and the sum of the address bytes indicates the starting offset position.) 
+{CR} 
+(CSB pin, or at the end of all defined register data.  If aaaaaaaa is 255, then an additional byte follows containing) 
+{CR} 
+(at the end of the register, but continues into the following register address.  Transmission is terminated by raising the) 
+{CR} 
+(from the beginning of register AAAA and may be used to write to a portion of a register.  The write does not terminate) 
+{CR} 
+(same major address used by the standard Read/Write commands.  The minor address aaaaaaaa gives a byte offset) 
+{CR} 
+(This mode of addressing accesses registers by byte.  The major address is given by AAAA and corresponds to the) 
+{/Times-Roman cf} 12 28 0 0.700 -448 192 label
+(as does the Write, 12-bit address command.) {CR} 
+(Read, 12-bit address and Read/Write, 12-bit address operate equivalently to their 4-bit address counterparts) 
+{/Times-Roman cf} 4 28 0 0.700 -448 -16 label
+(length:) {CR} (register) {CR} (Query) {/Times-Roman cf} 6 16 0 0.700 -992 -176 
+label
+(AAAA1000) {/Times-Roman cf} 2 16 0 0.700 -736 -112 label
+(XXXXXXXX) {/Times-Roman cf} 2 16 0 0.700 -736 -144 label
+(\(XXXXXXXX\)) {/Times-Roman cf} 2 16 0 0.700 -736 -176 label
+(byte length. ) {CR} 
+(there will be an additional byte following.  At the end of the transmission, the sum of the returned bytes is the register) 
+{CR} 
+(that the register does not exist.  If the register contains more than 254 bytes, then the value 11111111 is returned, and) 
+{CR} 
+(on SDO.  The value on SDI following the command/register byte is ignored.  A return value of 00000000 indicates) 
+{CR} 
+(Query the length of the register \(number of bytes\) at major address AAAA.  This byte is followed by one byte of output) 
+{/Times-Roman cf} 10 28 0 0.700 -448 -112 label
+(. . .) {/Times-Roman cf} 2 21 90 0.700 -640 -208 label
+(read/write:) {CR} (Address offset) {/Times-Roman cf} 4 16 0 0.700 -992 -336 
+label
+(AAAA1001) {/Times-Roman cf} 2 28 0 0.700 -736 -304 label
+(BBBBxxxx) {/Times-Roman cf} 2 16 0 0.700 -736 -352 label
+
+(a byte address, a value of 255 indicates an additional address offset byte following.) 
+{CR} 
+(then an additional byte aaaaaaaa specifies a byte offset within the same register.  Like the other commands specifying) 
+{CR} 
+(is longer than register AAAA, then values past the end of register AAAA are ignored.  If BBBB is equal to AAAA,) 
+{CR} 
+(register AAAA is longer than register BBBB, then values past the end of BBBB are read as zero.  If register BBBB) 
+{CR} 
+(device will be applied to register AAAA, while values read from the device will be read from register BBBB.  If) 
+{CR} 
+(Read/Write command.  However, it takes an additional input byte defining register BBBB.  Values written to the) 
+{CR} 
+(This optional command \(which may or may not be implemented by the device\) operates like the standard simultaneous) 
+{/Times-Roman cf} 14 28 0 0.700 -448 -304 label
+(dddddddd) {/Times-Roman cf} 2 16 0 0.700 -736 -384 label
+(dddddddd) {/Times-Roman cf} 2 16 0 0.700 -736 -416 label
+(dddddddd) {/Times-Roman cf} 2 16 0 0.700 -736 -496 label
+(. . .) {/Times-Roman cf} 2 21 90 0.700 -672 -448 label
+(Device program:) {/Times-Roman cf} 2 16 0 0.700 -992 -560 label
+(pppp1010) {/Times-Roman cf} 2 16 0 0.700 -736 -560 label
+(may implement additional commands in field pppp) {CR} 
+(If a device has non-volatile memory storage, then this command is a request to program the device memory.  The device) 
+{/Times-Roman cf} 4 28 0 0.700 -448 -544 label
+(Device standby:) {/Times-Roman cf} 2 16 0 0.700 -992 -640 label
+(00001011) {/Times-Roman cf} 2 16 0 0.700 -736 -640 label
+{Tf} (remains active.) {CR} 
+(This command puts the device into standby mode, in which all onboard functions are powered down and only the SPI) 
+{/Times-Roman cf} 5 28 0 0.700 -448 -624 label
+(Device active:) {/Times-Roman cf} 2 16 0 0.700 -992 -720 label
+(11111011) {/Times-Roman cf} 2 16 0 0.700 -736 -720 label
+
+(This command restores the active state of a device that has been placed into standby.) 
+{/Times-Roman cf} 2 28 0 0.700 -448 -704 label
+(modes:) {CR} (Device power) {/Times-Roman cf} 4 16 0 0.700 -992 -800 label
+(pppp1011) {/Times-Roman cf} 2 16 0 0.700 -736 -784 label
+(The device may optionally define device-dependent power states 1 to 14.) 
+{/Times-Roman cf} 2 28 0 0.700 -448 -768 label
+(flags:) {CR} (SPI protocol) {/Times-Roman cf} 4 16 0 0.700 -992 -880 label
+(00001100) {/Times-Roman cf} 2 16 0 0.700 -736 -864 label
+(corresponds to commands 0 to 7;  the second byte, commands 8 to 15.) {CR} 
+(is set to 1 if the corresponding SPI protocol 4-bit command is implemented, 0 if it is not.  The first byte returned) 
+{CR} 
+(The device returns two bytes indicating which of the commands 0 through 15 are implemented by the device.  Each bit) 
+{/Times-Roman cf} 6 28 0 0.700 -448 -848 label
+(flags:) {CR} (Command protocol) {/Times-Roman cf} 4 16 0 0.700 -992 -1024 
+label
+(cccc1100) {/Times-Roman cf} 2 16 0 0.700 -736 -992 label
+(\(device reset\), and "00010100" \(special reset, device-dependent\).) {CR} 
+(If the device returns "00000011, 00000000", then two reset commands are implemented, command "00000100") 
+{CR} 
+(implemented by the device.  For example, "01001100" requests the list of special resets implemented by the device.) 
+{CR} 
+(For specific 4-bit command cccc, the device returns two bytes indicating which of the sub-commands 0 through 15 are ) 
+{/Times-Roman cf} 8 28 0 0.700 -448 -976 label
+(protocol:) {CR} (Extended command) {/Times-Roman cf} 4 16 0 0.700 -992 -1184 
+label
+(pppp1111) {/Times-Roman cf} 2 16 0 0.700 -736 -1152 label
+(The number of bytes following the command is device-dependent.) {CR} 
+(A device may arbitrarily extend the SPI protocol by defining additional commands in the field pppp of command 1111.) 
+{/Times-Roman cf} 4 28 0 0.700 -448 -1136 label
+1 1.000 -992 1200 976 1200 2 polygon
+(Description of SPI commands) {/Times-Roman cf} 2 16 0 0.700 -992 1216 label
+(SDO timing:) {/Times-Roman cf} 2 16 0 0.700 -992 1088 label
+(00ss0000) {/Times-Roman cf} 2 16 0 0.700 -736 1088 label
+
+(is valid on SCK rising edge.  Behavior remains in effect until a power-cycle or another SDO timing command.) 
+{CR} 
+(Defines signal timing for SDO.  If ss = 01, then SDO is valid on SCK falling edge \(default\).  If ss = 10, then SDO) 
+{/Times-Roman cf} 4 16 0 0.700 -448 1056 label
+pgsave restore showpage
+
+%%Page: hydra_block_revA 5
+%%PageOrientation: Portrait
+%%PageBoundingBox: 0 0 612 792
+/pgsave save def bop
+0.6341 inchscale
+2.6000 setlinewidth 1438 1393 translate
+
+0.898 0.898 0.898 scb
+496 1.000 -832 432 -832 624 -544 624 -544 432 4 polygon
+496 1.000 -448 432 -448 624 -160 624 -160 432 4 polygon
+496 1.000 -96 432 -96 624 192 624 192 432 4 polygon
+496 1.000 256 432 256 624 544 624 544 432 4 polygon
+496 1.000 256 784 256 976 544 976 544 784 4 polygon
+sce
+0 1.000 256 784 256 976 544 976 544 784 4 polygon
+0.898 0.898 0.898 scb
+496 1.000 -64 784 -64 976 96 976 96 784 4 polygon
+496 1.000 -416 784 -416 976 -128 976 -128 784 4 polygon
+496 1.000 -832 784 -832 976 -544 976 -544 784 4 polygon
+496 1.000 288 1136 288 1328 544 1328 544 1136 4 polygon
+496 1.000 144 1136 144 1328 256 1328 256 1136 4 polygon
+496 1.000 -176 1136 -176 1328 112 1328 112 1136 4 polygon
+496 1.000 -528 1136 -528 1328 -240 1328 -240 1136 4 polygon
+496 1.000 -912 1136 -912 1328 -624 1328 -624 1136 4 polygon
+sce
+0 1.000 -832 784 -832 976 -544 976 -544 784 4 polygon
+(controller) {CR} (SPI) {/Times-Roman cf} 4 21 0 0.700 -688 880 label
+0 1.000 -912 1136 -912 1328 -624 1328 -624 1136 4 polygon
+(DAC) {/Times-Roman cf} 2 21 0 0.700 -768 1232 label
+0 1.000 -528 1136 -528 1328 -240 1328 -240 1136 4 polygon
+(ADC) {/Times-Roman cf} 2 21 0 0.700 -384 1232 label
+0 1.000 -176 1136 -176 1328 112 1328 112 1136 4 polygon
+(Reference) {CR} (Voltage) {CR} (Bandgap/) {/Times-Roman cf} 6 21 0 0.700 -32 
+1232 label
+0 1.000 288 1136 288 1328 544 1328 544 1136 4 polygon
+(LDO) {/Times-Roman cf} 2 21 0 0.700 400 1232 label
+0 1.000 256 432 256 624 544 624 544 432 4 polygon
+(PWM Core) {/Times-Roman cf} 2 21 0 0.700 400 528 label
+0 1.000 -96 432 -96 624 192 624 192 432 4 polygon
+(Reset) {CR} (Poweron) {/Times-Roman cf} 4 21 0 0.700 -336 880 label
+0 1.000 -448 432 -448 624 -160 624 -160 432 4 polygon
+(Op Amp) {/Times-Roman cf} 2 21 360 0.700 -304 528 label
+0 1.000 -832 432 -832 624 -544 624 -544 432 4 polygon
+(Sense) {CR} (Temperature) {/Times-Roman cf} 4 21 0 0.700 -688 528 label
+0 1.000 -1024 992 -1024 1056 -960 1056 -960 992 4 polygon
+0 1.000 -1024 896 -1024 960 -960 960 -960 896 4 polygon
+0 1.000 -1024 800 -1024 864 -960 864 -960 800 4 polygon
+0 1.000 -1024 704 -1024 768 -960 768 -960 704 4 polygon
+(SDI) {/Times-Roman cf} 2 23 0 0.700 -1056 1024 label
+(SDO) {/Times-Roman cf} 2 23 0 0.700 -1056 928 label
+(SCK) {/Times-Roman cf} 2 23 0 0.700 -1056 832 label
+(CSB) {/Times-Roman cf} 2 23 0 0.700 -1056 736 label
+1 1.000 -960 1024 -896 1024 -896 928 -832 928 4 polygon
+1 1.000 -960 928 -928 928 -928 896 -832 896 4 polygon
+1 1.000 -960 832 -928 832 -928 864 -832 864 4 polygon
+1 1.000 -960 736 -896 736 -896 832 -832 832 4 polygon
+0 1.000 640 912 640 976 704 976 704 912 4 polygon
+0 1.000 640 784 640 848 704 848 704 784 4 polygon
+0 1.000 320 1424 320 1488 384 1488 384 1424 4 polygon
+0 1.000 448 1424 448 1488 512 1488 512 1424 4 polygon
+0 1.000 -128 1424 -128 1488 -64 1488 -64 1424 4 polygon
+0 1.000 0 1424 0 1488 64 1488 64 1424 4 polygon
+0 1.000 -480 1424 -480 1488 -416 1488 -416 1424 4 polygon
+0 1.000 -352 1424 -352 1488 -288 1488 -288 1424 4 polygon
+0 1.000 -864 1424 -864 1488 -800 1488 -800 1424 4 polygon
+0 1.000 -736 1424 -736 1488 -672 1488 -672 1424 4 polygon
+0 1.000 304 272 304 336 368 336 368 272 4 polygon
+0 1.000 432 272 432 336 496 336 496 272 4 polygon
+0 1.000 -48 272 -48 336 16 336 16 272 4 polygon
+0 1.000 80 272 80 336 144 336 144 272 4 polygon
+0 1.000 -400 272 -400 336 -336 336 -336 272 4 polygon
+0 1.000 -272 272 -272 336 -208 336 -208 272 4 polygon
+0 1.000 -784 272 -784 336 -720 336 -720 272 4 polygon
+0 1.000 -656 272 -656 336 -592 336 -592 272 4 polygon
+0 1.000 160 1424 160 1488 224 1488 224 1424 4 polygon
+0 1.000 640 528 640 592 704 592 704 528 4 polygon
+0 1.000 640 1040 640 1104 704 1104 704 1040 4 polygon
+0 1.000 640 1168 640 1232 704 1232 704 1168 4 polygon
+(Reference) {CR} (Current) {/Times-Roman cf} 4 21 0 0.700 400 880 label
+0 1.000 -416 784 -416 976 -128 976 -128 784 4 polygon
+(Buffer) {CR} (Input) {/Times-Roman cf} 4 21 0 0.700 48 528 label
+0 1.000 -1024 1424 -1024 1488 -960 1488 -960 1424 4 polygon
+0 1.000 -1024 272 -1024 336 -960 336 -960 272 4 polygon
+0 1.000 640 272 640 336 704 336 704 272 4 polygon
+0 1.000 -1024 544 -1024 608 -960 608 -960 544 4 polygon
+0 1.000 640 1424 640 1488 704 1488 704 1424 4 polygon
+0 1.000 -1024 1152 -1024 1216 -960 1216 -960 1152 4 polygon
+(dVDD) {/Times-Roman cf} 2 23 0 0.700 -1056 1184 label
+(dGND) {/Times-Roman cf} 2 23 0 0.700 -1056 576 label
+0 1.000 -64 784 -64 976 96 976 96 784 4 polygon
+(Oscillator) {CR} (Ring) {/Times-Roman cf} 4 21 0 0.700 16 880 label
+1 1.000 -128 888 -64 888 2 polygon
+1 1.000 -128 872 -64 872 2 polygon
+1 1.000 -544 896 -416 896 2 polygon
+1 1.000 -544 880 -416 880 2 polygon
+1 1.000 -544 960 -496 960 -496 1056 -768 1056 -768 1136 5 polygon
+1 1.000 -544 944 -480 944 -480 1056 -384 1056 -384 1136 5 polygon
+1 1.000 -544 928 -464 928 -464 1040 -32 1040 -32 1136 5 polygon
+1 1.000 -544 912 -448 912 -448 1024 400 1024 400 1136 5 polygon
+1 1.000 -544 864 -448 864 -448 736 192 736 192 880 256 880 6 polygon
+1 1.000 -544 848 -464 848 -464 720 400 720 400 624 5 polygon
+1 1.000 -544 832 -480 832 -480 704 48 704 48 624 5 polygon
+1 1.000 -544 816 -496 816 -496 688 -304 688 -304 624 5 polygon
+1 1.000 -544 800 -512 800 -512 688 -688 688 -688 624 5 polygon
+1 1.000 -752 336 -752 432 2 polygon
+(aGND) {/Times-Roman cf} 2 20 0 0.700 736 560 label
+(aVDD) {/Times-Roman cf} 2 20 0 0.700 736 1200 label
+1 1.000 -624 336 -624 432 2 polygon
+1 1.000 -368 336 -368 432 2 polygon
+1 1.000 -240 336 -240 432 2 polygon
+1 1.000 -16 336 -16 432 2 polygon
+1 1.000 112 336 112 432 2 polygon
+1 1.000 336 336 336 432 2 polygon
+1 1.000 464 336 464 432 2 polygon
+1.000 0.000 0.000 scb
+1 1.000 480 1328 480 1424 2 polygon
+sce
+1 1.000 352 1328 352 1424 2 polygon
+0.361 0.675 0.934 scb
+1 1.000 32 1328 32 1424 2 polygon
+sce
+1 1.000 -96 1328 -96 1424 2 polygon
+1 1.000 -320 1328 -320 1424 2 polygon
+1 1.000 -704 1328 -704 1424 2 polygon
+1 1.000 -832 1328 -832 1424 2 polygon
+1 1.000 544 816 640 816 2 polygon
+1 1.000 544 944 640 944 2 polygon
+0.679 1.000 0.184 scb
+512 1.000 -1136 -1088 -1136 1632 832 1632 832 -1088 4 polygon
+sce
+(Hydra block diagram) {/Times-Roman cf} 2 28 0 0.700 -1136 1632 label
+1 1.000 -1136 1584 832 1584 2 polygon
+(timer) {/Times-Roman cf} 2 21 0 0.700 -192 928 label
+0 1.000 -240 800 -240 864 -144 864 -144 800 4 polygon
+(timer) {/Times-Roman cf} 2 21 0 0.700 -192 832 label
+0 1.000 144 1136 144 1328 256 1328 256 1136 4 polygon
+(LDO) {CR} (digital) {CR} (1.8V) {/Times-Roman cf} 6 21 0 0.700 192 1248 label
+0.934 0.604 0.000 scb
+1 1.000 192 1328 192 1424 2 polygon
+sce
+1 1.000 -448 1328 -448 1424 2 polygon
+0 1.000 -240 896 -240 960 -144 960 -144 896 4 polygon
+(Subsystem) {/Times-Roman cf} 2 16 0 0.700 -1088 64 label
+(Sources) {/Times-Roman cf} 2 16 0 0.700 -768 64 label
+1 1.000 -1088 48 592 48 2 polygon
+(DAC) {/Times-Roman cf} 2 16 0 0.700 -1088 0 label
+(SPI \(value\)) {/Times-Roman cf} 2 16 0 0.700 -768 0 label
+(Vref \(min/max values\)) {/Times-Roman cf} 2 16 0 0.700 -768 -32 label
+(Modes of operation) {/Times-Roman cf} 2 16 0 0.700 -192 64 label
+(Differential output?) {/Times-Roman cf} 2 16 0 0.700 -192 0 label
+(ADC) {/Times-Roman cf} 2 16 0 0.700 -1088 -96 label
+(timers \(for continuous triggering\)) {/Times-Roman cf} 2 16 0 0.700 -768 -96 
+label
+(Vref/Bandgap) {/Times-Roman cf} 2 16 0 0.700 -768 -160 label
+{/Times-Roman cf} 1 16 0 0.700 -768 -160 label
+(Temperature sensor) {/Times-Roman cf} 2 16 0 0.700 -768 -192 label
+(Input buffers) {/Times-Roman cf} 2 16 0 0.700 -768 -224 label
+(OpAmp outputs) {/Times-Roman cf} 2 16 0 0.700 -768 -256 label
+(PWM) {/Times-Roman cf} 2 16 0 0.700 -1088 -320 label
+(OpAmp) {/Times-Roman cf} 2 16 0 0.700 -1088 -544 label
+(Differential input) {/Times-Roman cf} 2 16 0 0.700 -192 -544 label
+(Differential output) {/Times-Roman cf} 2 16 0 0.700 -192 -576 label
+(Comparator stage) {/Times-Roman cf} 2 16 0 0.700 -192 -608 label
+{/Times-Roman cf} 1 16 0 0.700 -192 -480 label
+(timers \(to set output rate\)) {/Times-Roman cf} 2 16 0 0.700 -768 -320 label
+(Input buffers) {/Times-Roman cf} 2 16 0 0.700 -768 -416 label
+(DC-to-duty cycle) {/Times-Roman cf} 2 16 0 0.700 -192 -320 label
+(Vref/Bandgap) {/Times-Roman cf} 2 16 0 0.700 -768 -352 label
+(Temperature sensor) {/Times-Roman cf} 2 16 0 0.700 -768 -384 label
+(OpAmp outputs) {/Times-Roman cf} 2 16 0 0.700 -768 -448 label
+(Input buffers) {/Times-Roman cf} 2 16 0 0.700 -768 -608 label
+(Vref/Bandgap) {/Times-Roman cf} 2 16 0 0.700 -768 -544 label
+(Temperature sensor) {/Times-Roman cf} 2 16 0 0.700 -768 -576 label
+(OpAmp outputs) {/Times-Roman cf} 2 16 0 0.700 -768 -640 label
+(Current Reference) {/Times-Roman cf} 2 16 0 0.700 -1088 -736 label
+(Sink/Source selection) {/Times-Roman cf} 2 16 0 0.700 -192 -736 label
+(Current multiplier) {/Times-Roman cf} 2 16 0 0.700 -192 -768 label
+(Vref/Bandgap) {/Times-Roman cf} 2 16 0 0.700 -768 -736 label
+(Ring oscillator) {/Times-Roman cf} 2 16 0 0.700 -1088 -864 label
+(Divider) {/Times-Roman cf} 2 16 0 0.700 -192 -864 label
+0.000 0.934 0.000 scb
+1 1.000 -192 960 -192 1088 -320 1088 -320 1136 4 polygon
+sce
+(timers/oscillator \(for SAR\)) {/Times-Roman cf} 2 16 0 0.700 -768 -128 label
+0.000 0.934 0.000 scb
+1 1.000 -192 800 -192 688 336 688 336 624 4 polygon
+0.934 0.604 0.000 scb
+1 1.000 192 1376 272 1376 272 1008 -672 1008 -672 976 5 polygon
+0.361 0.675 0.934 scb
+1 1.000 32 1376 128 1376 128 1088 192 1088 192 1136 5 polygon
+0.934 0.604 0.000 scb
+1 1.000 32 1008 32 976 2 polygon
+1 1.000 -288 1008 -288 976 2 polygon
+1 1.000 -352 1008 -352 1136 2 polygon
+1.000 0.000 0.000 scb
+1 1.000 480 1376 576 1376 576 1072 -704 1072 -704 1136 5 polygon
+1 1.000 576 1072 576 672 -640 672 -640 624 4 polygon
+1 1.000 -256 672 -256 624 2 polygon
+1 1.000 96 672 96 624 2 polygon
+1 1.000 448 672 448 624 2 polygon
+1 1.000 448 1072 448 976 2 polygon
+1 1.000 0 1072 0 1136 2 polygon
+0.647 0.165 0.165 scb
+1 1.000 640 1200 608 1200 608 1104 224 1104 224 1136 5 polygon
+1 1.000 496 1104 496 1136 2 polygon
+1.000 0.000 0.000 scb
+1 1.000 -432 1072 -432 1136 2 polygon
+0.361 0.675 0.934 scb
+1 1.000 192 1088 352 1088 352 1136 3 polygon
+1.000 0 352 1136 generic::arrowhead
+0.647 0.165 0.165 scb
+1.000 0 496 1136 generic::arrowhead
+1.000 0 224 1136 generic::arrowhead
+0.934 0.604 0.000 scb
+-1.000 180 32 976 generic::arrowhead
+-1.000 180 -288 976 generic::arrowhead
+-1.000 180 -672 976 generic::arrowhead
+1.000 0 -352 1136 generic::arrowhead
+0.000 0.934 0.000 scb
+1.000 0 -320 1136 generic::arrowhead
+-1.000 180 336 624 generic::arrowhead
+1.000 0.000 0.000 scb
+-1.000 180 448 624 generic::arrowhead
+-1.000 180 96 624 generic::arrowhead
+-1.000 180 -256 624 generic::arrowhead
+-1.000 180 -640 624 generic::arrowhead
+1.000 0 -704 1136 generic::arrowhead
+1.000 0 -432 1136 generic::arrowhead
+1.000 0 0 1136 generic::arrowhead
+-1.000 180 448 976 generic::arrowhead
+1.000 0 480 1376 generic::dot
+1.000 0 576 1072 generic::dot
+1.000 0 448 1072 generic::dot
+1.000 0 0 1072 generic::dot
+1.000 0 -432 1072 generic::dot
+1.000 0 -256 672 generic::dot
+1.000 0 96 672 generic::dot
+1.000 0 448 672 generic::dot
+0.934 0.604 0.000 scb
+1.000 0 192 1376 generic::dot
+0.361 0.675 0.934 scb
+1.000 0 32 1376 generic::dot
+1.000 0 192 1088 generic::dot
+sce
+1.000 0 -768 1136 generic::arrowhead
+1.000 0 -384 1136 generic::arrowhead
+1.000 0 -32 1136 generic::arrowhead
+1.000 0 400 1136 generic::arrowhead
+-1.000 180 -384 1072 generic::arrowhead
+-1.000 270 -448 896 generic::arrowhead
+1.000 90 -416 880 generic::arrowhead
+-1.000 270 -128 888 generic::arrowhead
+-1.000 270 -128 872 generic::arrowhead
+1.000 90 256 880 generic::arrowhead
+1.000 180 -688 624 generic::arrowhead
+1.000 180 -304 624 generic::arrowhead
+1.000 180 48 624 generic::arrowhead
+1.000 180 400 624 generic::arrowhead
+1.000 270 -880 896 generic::arrowhead
+-1.000 90 -848 864 generic::arrowhead
+-1.000 90 -848 832 generic::arrowhead
+-1.000 90 -848 928 generic::arrowhead
+-1.000 360 -16 432 generic::arrowhead
+-1.000 360 112 432 generic::arrowhead
+1.000 180 336 336 generic::arrowhead
+1.000 180 464 336 generic::arrowhead
+1.000 180 -240 336 generic::arrowhead
+1.000 180 -368 336 generic::arrowhead
+1.000 180 -624 336 generic::arrowhead
+1.000 180 -752 336 generic::arrowhead
+-1.000 0 -832 1424 generic::arrowhead
+-1.000 0 -704 1424 generic::arrowhead
+-1.000 0 -448 1424 generic::arrowhead
+-1.000 0 -320 1424 generic::arrowhead
+-1.000 0 -96 1424 generic::arrowhead
+-1.000 0 352 1424 generic::arrowhead
+-1.000 90 640 944 generic::arrowhead
+-1.000 90 640 816 generic::arrowhead
+0.934 0.604 0.000 scb
+1.000 0 192 1424 generic::arrowhead
+1.000 0.000 0.000 scb
+1.000 0 480 1424 generic::arrowhead
+0.361 0.675 0.934 scb
+1.000 0 32 1424 generic::arrowhead
+pgsave restore showpage
+
+%%Trailer
+XCIRCsave restore
+%%EOF

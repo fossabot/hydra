@@ -1,0 +1,169 @@
+eFabless engineering test environment board
+-------------------------------------------
+--	USB type B 4-position connector
+	TE Connectivity 292304-1
+	Digi-key A31725-ND	 	$1.92	(total $1.92)
+
+--	2.5mm power jack
+	CUI, Inc.  PJ002B
+	Digi-key CP-002B-ND	 	$0.92	(total $0.92)
+
+--	4-pin connector
+	Molex, Inc. 0022232041  4 position 0.1" spacing header
+	Digi-key WM4202-ND		$0.37	(total $0.37)
+	
+
+--	SMA side-mount (12x)
+	Emerson 142-0701-801
+	Digi-key J502-ND   		$5.10 ($4.54 per 10) (total $55.60)
+
+--	32-pin DIP socket (optional), open frame
+	TE Connectivity
+	Digi-key A94132-ND		$2.52	(total $2.52)
+
+U1	ADuM4160 USB voltage isolator
+	Analog Devices, Inc. ADuM4160BRWZ-RL
+	16 SOIC package
+	Digi-key ADUM4160BRWZ-RLCT-ND	$11.35	(total $11.35)
+
+U2	FT232HL	USB/serial interface driver
+	FTDI
+	48 LQFP package
+	Digi-key 786-1101-1-ND		$4.25	(total $4.25)
+
+U3	93LC56B SPI EEPROM
+	MicroChip Technology
+	8 TSSOP
+	Digi-key 93LC56B-I/ST-ND	$0.36	(total $0.36)
+
+U4	AP7333-33SAG-7	3.3V LDO, 0.3A
+	Diodes, Inc. 
+	SOT23-3
+	Digi-key AP7333-33SAG-7DICT-ND	$0.48	(total $0.48)
+
+X0	Crystal, 12MHz, 18pF
+	ECS, Inc.
+	SMD HC-49USX CSM-7X ECS-120-18-5PX-TR
+	Digi-key XC1289TR-ND	 	$0.21	(total $0.21)
+
+X1	Crystal (optional)
+	Example, 25MHz
+	SMD HC-49USX CSM-7X ECS-250-18-5PX-F-TR
+	Digi-key XC1305TR-ND		$0.21	(total $0.21)
+
+J0-J2	2-pin headers, 0.1" spacing (3x)
+
+J3	6x2 header, 0.1" spacing
+
+J4	4x2 header, 0.1" spacing
+
+J5	2x2 header, 0.1" spacing
+
+J6	test header/breakout, unpopulated
+
+	All headers from one break-off header 2x32 position (tin)
+	Samtec, Inc. TD-132-T-A
+	Digi-key SAM1114-32-ND		$7.61	(total $7.61)
+
+--	LEDs, 0805 SMT, assorted colors (2 green, 2 red, 1 yellow)
+	Lite-On Inc.
+	Digi-key 160-1423-2-ND (Green)  $0.05
+		 160-1415-2-ND (Red)  	$0.05
+		 160-1416-2-ND (Yellow)	$0.05	(total $0.25)
+	
+C0	4.7uF electrolytic radial capacitor
+	Panasonic ECA-1HM4R7I
+	Digi-key  P10424TB-ND		$0.04
+
+C1	22uF 1210 SMT capacitor
+	AVX NOJB226M006RWJ
+	Digi-key 478-1823-2-ND		$0.16
+
+C2	100nF 0805 SMT capacitor, ceramic
+	Kemet C0805C103K5RACTU
+	Digi-key 399-1158-1-ND		$0.10
+
+C3	22uF 1210 SMT capacitor
+	AVX NOJB226M006RWJ
+	Digi-key 478-1823-2-ND		$0.16
+
+C4	100nF 0805 SMT capacitor
+	Kemet C0805C103K5RACTU
+	Digi-key 399-1158-1-ND		$0.10
+
+C5	100nF 0805 SMT capacitor
+	Kemet C0805C103K5RACTU
+	Digi-key 399-1158-1-ND		$0.10
+
+C6-C9	100nF 0805 SMT capacitor
+	Kemet C0805C103K5RACTU
+	Digi-key 399-1158-1-ND		$0.10
+
+C10	4.7uF electrolytic radial capacitor (optional)
+	Panasonic ECA-1HM4R7I
+	Digi-key  P10424TB-ND		$0.04
+
+C11	100nF 0805 SMT capacitor
+	Kemet C0805C103K5RACTU
+	Digi-key 399-1158-1-ND		$0.10
+
+C12-C15	100nF 0603 SMT capacitor, low ESR
+	Kemet
+	Digi-key 399-1096-2-ND		$0.10
+
+C16-C18	100nF 0603 SMT capacitor
+	Kemet
+	Digi-key 399-1096-2-ND		$0.10
+
+C19-C22	18pF 0603 SMT capacitor		
+	TDK C1608C0G1H180J080AA
+	Digi-key 445-1272-1-ND		$0.10
+
+C23	100nF 0805 SMT capacitor
+	Kemet C0805C103K5RACTU
+	Digi-key 399-1158-1-ND		$0.10	(capacitor total $2.36)
+
+
+R1-R4	24Ohm 0603 SMT resistor
+	Panasonic
+	Digi-key P24GCT-ND		$0.10
+
+R5 	39kOhm 0603 SMT resistor
+	Panasonic
+	Digi-key P39KGCT-ND		$0.10
+
+R6	12kOhm 0603 SMT resistor
+	Panasonic
+	Digi-key P12KGCT-ND		$0.10
+
+R7	2kOhm 0603 SMT resistor
+	Panasonic
+	Digi-key P2.0KGCT-ND		$0.10
+
+R8-R10	10kOhm 0603 SMT resistor
+	Panasonic
+	Digi-key P10KGCT-ND		$0.10
+
+R11-R15	62Ohm 0603 SMT resistor
+	Panasonic
+	Digi-key P62GCT-ND		$0.10
+
+R16	100kOhm 0603 SMT resistor
+	Panasonic
+	Digi-key P100KGCT-ND		$0.10	(resistor total $1.10)
+
+Z1-Z2	Supressor ESD 24VDC SMT 0603
+	Littelfuse, Inc.  PGB1010603NRHF
+	Digi-key F4239CT-ND		$0.66  (supressor total $1.32)
+
+--	Shunts 0.1" (10x) (optional)
+	3M Corp. QPC02SXGN-RC
+	Digi-key S9337-ND		$0.10 each (total $1.00)
+
+Assorted other parts:  Screws, standoffs --
+
+		Board component total: 	$91.23
+
+Board price:				$22.24 (with 5 boards ordered)
+					-------
+					$113.47

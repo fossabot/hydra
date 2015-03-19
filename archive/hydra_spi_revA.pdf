@@ -1,0 +1,2204 @@
+%PDF-1.3
+%‚„œ”
+2 0 obj
+<<
+/Length 6738
+>>
+stream
+0 0 0 RG
+1 J 2 j 0.667 w 6 M []0 d
+/GS1 gs
+1 i 
+539.834 660.681 m
+104.683 660.681 l
+S
+BT
+/TT2 1 Tf
+7.1841 0 0 7.1841 131.7182 697.6273 Tm
+0 0 0 rg
+0 Tc
+0 Tw
+(msb)Tj
+40.2506 0 TD
+(lsb)Tj
+ET
+121.103 143.425 m
+121.103 693.522 l
+S
+BT
+7.1841 0 0 7.1841 254.0138 670.5243 Tm
+(manufacturer_ID[7:0])Tj
+ET
+539.834 611.418 m
+71.841 611.418 l
+104.683 143.425 m
+104.683 693.522 l
+71.841 143.425 m
+71.841 693.522 l
+S
+BT
+7.1841 0 0 7.1841 76.3893 696.6011 Tm
+(Register)Tj
+0 -1 TD
+(Address)Tj
+ET
+539.834 685.312 m
+71.841 685.312 l
+S
+BT
+7.1841 0 0 7.1841 86.6361 668.891 Tm
+(0)Tj
+ET
+539.834 586.787 m
+104.683 586.787 l
+S
+BT
+7.1841 0 0 7.1841 268.9248 621.2906 Tm
+(product_ID)Tj
+-21.9453 6.6258 TD
+(0)Tj
+0.0852 -3.4286 TD
+(1)Tj
+ET
+539.834 512.893 m
+104.683 512.893 l
+S
+BT
+7.1841 0 0 7.1841 87.2483 594.9974 Tm
+2.8434 Tc
+(10)Tj
+3.3434 -10.2857 TD
+0 Tc
+(0)Tj
+ET
+162.155 685.312 m
+162.155 693.522 l
+203.207 685.312 m
+203.207 693.522 l
+244.259 685.312 m
+244.259 693.522 l
+285.311 685.312 m
+285.311 693.522 l
+326.363 685.312 m
+326.363 693.522 l
+367.415 685.312 m
+367.415 693.522 l
+408.467 685.312 m
+408.467 693.522 l
+449.519 143.425 m
+449.519 693.522 l
+S
+BT
+7.1841 0 0 7.1841 141.5387 689.417 Tm
+5.1993 Tc
+[(76)-16.7(5)541.6(4)-541.5(3)-33.4(2)66.9(1)458.1(0)]TJ
+ET
+285.311 586.787 m
+285.311 611.418 l
+S
+BT
+7.1841 0 0 7.1841 476.0035 689.417 Tm
+0 Tc
+(comments)Tj
+ET
+539.834 143.425 m
+539.834 693.522 l
+S
+BT
+7.1841 0 0 7.1841 476.8566 670.5243 Tm
+(read-only)Tj
+0 -3.4307 TD
+(read-only)Tj
+-0.4278 -6.3531 TD
+(lower 4 bits)Tj
+0 -1 TD
+(read-only)Tj
+-17.9613 0.5501 TD
+(power-on status)Tj
+-35.9241 -10.565 TD
+(2)Tj
+ET
+203.207 586.787 m
+203.207 611.418 l
+S
+BT
+7.1841 0 0 7.1841 111.8795 498.1767 Tm
+(1)Tj
+ET
+539.834 488.262 m
+104.683 488.262 l
+S
+BT
+7.1841 0 0 7.1841 247.4583 522.7635 Tm
+(DAC0_value[7:0])Tj
+ET
+285.311 488.262 m
+285.311 512.893 l
+S
+BT
+7.1841 0 0 7.1841 340.0778 498.1167 Tm
+(DAC0_value[11:8])Tj
+ET
+539.834 463.631 m
+104.683 463.631 l
+S
+BT
+7.1841 0 0 7.1841 111.2964 471.8414 Tm
+(2)Tj
+0.0277 -3.1957 TD
+(3)Tj
+ET
+539.834 439 m
+71.841 439 l
+S
+BT
+7.1841 0 0 7.1841 247.4583 473.4699 Tm
+(DAC1_value[7:0])Tj
+ET
+285.311 439 m
+285.311 463.631 l
+S
+BT
+7.1841 0 0 7.1841 340.0778 448.8831 Tm
+(DAC1_value[11:8])Tj
+/TT4 1 Tf
+0.6 0.6 0.6 rg
+-22.4836 6.8531 TD
+(reserved)Tj
+0 -6.8531 TD
+(reserved)Tj
+ET
+244.259 488.262 m
+244.259 512.893 l
+S
+BT
+/TT2 1 Tf
+7.1841 0 0 7.1841 253.691 501.7087 Tm
+0 0 0 rg
+(enable_)Tj
+0 -1 TD
+(DAC0)Tj
+ET
+244.259 439 m
+244.259 463.631 l
+S
+BT
+7.1841 0 0 7.1841 253.691 452.4751 Tm
+(enable_)Tj
+T*
+(DAC1)Tj
+ET
+539.834 414.369 m
+104.683 414.369 l
+539.834 389.737 m
+104.683 389.737 l
+539.834 365.106 m
+104.683 365.106 l
+539.834 291.213 m
+71.841 291.213 l
+539.834 315.844 m
+104.683 315.844 l
+539.834 340.475 m
+104.683 340.475 l
+S
+BT
+7.1841 0 0 7.1841 111.2673 422.579 Tm
+(0)Tj
+0.0852 -3.1917 TD
+(1)Tj
+-0.0812 -3.6654 TD
+(2)Tj
+0.0277 -3.196 TD
+(3)Tj
+-0.0359 -3.4224 TD
+(4)Tj
+0.0279 -3.4391 TD
+(5)Tj
+18.9335 17.1454 TD
+(ADC0_value[7:0])Tj
+ET
+285.311 389.737 m
+285.311 414.369 l
+285.311 315.844 m
+285.311 340.475 l
+S
+BT
+7.1841 0 0 7.1841 335.9726 399.5895 Tm
+(ADC0_value[11:8])Tj
+-10.6066 -6.8531 TD
+(ADC1_value[7:0])Tj
+12.3209 -3.4307 TD
+(ADC1_value[11:8])Tj
+ET
+408.467 365.106 m
+408.467 389.737 l
+S
+BT
+7.1841 0 0 7.1841 417.899 378.5348 Tm
+(enable_)Tj
+0 -1 TD
+(ADC0)Tj
+ET
+408.467 291.213 m
+408.467 315.844 l
+S
+BT
+7.1841 0 0 7.1841 417.899 304.6544 Tm
+(enable_)Tj
+T*
+(ADC1)Tj
+-34.4224 14.2146 TD
+(ADC0_input_select)Tj
+0 -10.2839 TD
+(ADC1_input_select)Tj
+ET
+367.415 291.213 m
+367.415 315.844 l
+367.415 365.106 m
+367.415 389.737 l
+S
+BT
+7.1841 0 0 7.1841 378.6957 379.3148 Tm
+(run_)Tj
+0 -1 TD
+(ADC0)Tj
+0.0351 -9.2839 TD
+(run_)Tj
+0 -1 TD
+(ADC1)Tj
+/TT4 1 Tf
+0.6 0.6 0.6 rg
+-26.7513 10.6753 TD
+(reserved)Tj
+0 -10.2839 TD
+(reserved)Tj
+ET
+285.311 365.106 m
+285.311 389.737 l
+S
+BT
+/TT2 1 Tf
+7.1841 0 0 7.1841 299.4861 374.9427 Tm
+0 0 0 rg
+(ADC0_vref_select)Tj
+ET
+285.311 291.213 m
+285.311 315.844 l
+S
+BT
+7.1841 0 0 7.1841 299.4861 301.0623 Tm
+(ADC1_vref_select)Tj
+-29.5962 16.9147 TD
+(3)Tj
+-0.0359 -20.5714 TD
+(4)Tj
+ET
+539.834 266.581 m
+104.683 266.581 l
+408.467 266.581 m
+408.467 291.213 l
+285.311 266.581 m
+285.311 291.213 l
+S
+BT
+7.1841 0 0 7.1841 179.155 276.4155 Tm
+(bandgap_trim)Tj
+33.2323 0.5 TD
+(enable_)Tj
+0 -1 TD
+(Vref0)Tj
+-12.9281 0.5 TD
+(Vref0_value)Tj
+ET
+539.834 241.95 m
+71.841 241.95 l
+408.467 241.95 m
+408.467 266.581 l
+285.311 241.95 m
+285.311 266.581 l
+S
+BT
+7.1841 0 0 7.1841 417.899 255.4208 Tm
+(enable_)Tj
+0 -1 TD
+(Vref1)Tj
+-12.9281 0.5 TD
+(Vref1_value)Tj
+-29.7539 3.1964 TD
+(0)Tj
+0.0852 -3.188 TD
+(1)Tj
+51.3749 23.9901 TD
+(read-only)Tj
+-0.4361 -2.9307 TD
+(lower 4 bits)Tj
+0 -1 TD
+(read-only)Tj
+0 -9.2839 TD
+(lower 4 bits)Tj
+0 -1 TD
+(read-only)Tj
+0.4361 3.9307 TD
+(read-only)Tj
+/TT4 1 Tf
+0.6 0.6 0.6 rg
+-40.9513 -13.7146 TD
+(reserved)Tj
+ET
+539.834 217.319 m
+104.683 217.319 l
+539.834 192.688 m
+71.841 192.688 l
+S
+BT
+/TT2 1 Tf
+7.1841 0 0 7.1841 86.8068 225.5294 Tm
+0 0 0 rg
+2.9048 Tc
+(50)Tj
+3.49 -3.1924 TD
+0 Tc
+(1)Tj
+ET
+285.311 192.688 m
+285.311 241.95 l
+408.467 217.319 m
+408.467 241.95 l
+S
+BT
+7.1841 0 0 7.1841 324.1823 227.1819 Tm
+(LDO0_value)Tj
+ET
+408.467 192.688 m
+408.467 217.319 l
+S
+BT
+7.1841 0 0 7.1841 417.899 206.1272 Tm
+(enable_)Tj
+0 -1 TD
+(LDO1)Tj
+-13.045 0.5 TD
+(LDO1_value)Tj
+13.045 3.9307 TD
+(enable_)Tj
+0 -1 TD
+(LDO0)Tj
+-46.101 -6.5872 TD
+(6)Tj
+ET
+539.834 168.057 m
+104.683 168.057 l
+S
+BT
+7.1841 0 0 7.1841 111.2673 176.267 Tm
+(0)Tj
+0.0852 -3.1884 TD
+(1)Tj
+ET
+408.467 168.057 m
+408.467 192.688 l
+S
+BT
+7.1841 0 0 7.1841 417.899 181.4804 Tm
+(enable_)Tj
+0 -1 TD
+(Iref0)Tj
+-12.736 0.5 TD
+(Iref0_value)Tj
+ET
+408.467 143.425 m
+408.467 168.057 l
+S
+BT
+7.1841 0 0 7.1841 417.899 156.8936 Tm
+(enable_)Tj
+0 -1 TD
+(Iref1)Tj
+-12.736 0.5 TD
+(Iref1_value)Tj
+ET
+285.311 168.057 m
+285.311 192.688 l
+285.311 143.425 m
+285.311 168.057 l
+S
+BT
+/TT4 1 Tf
+7.1841 0 0 7.1841 186.7637 227.1819 Tm
+0.6 0.6 0.6 rg
+(reserved)Tj
+0 -3.4307 TD
+(reserved)Tj
+T*
+(reserved)Tj
+0 -3.4224 TD
+(reserved)Tj
+/TT2 1 Tf
+0 0 0 rg
+-16.019 77.9423 TD
+(Hydra rev0 SPI register definition:)Tj
+ET
+539.834 143.425 m
+71.841 143.425 l
+539.834 537.525 m
+71.841 537.525 l
+539.834 562.156 m
+104.683 562.156 l
+408.467 562.156 m
+408.467 586.787 l
+408.467 537.525 m
+408.467 562.156 l
+S
+BT
+7.1841 0 0 7.1841 215.0515 596.6439 Tm
+(timer0_ringosc_freq)Tj
+-11.4286 0 TD
+(timer1_ringosc_freq)Tj
+39.6642 -2.9307 TD
+(timer0_)Tj
+0 -1 TD
+(enable)Tj
+-0.5714 -2.4307 TD
+(timer1_)Tj
+0 -1 TD
+(enable)Tj
+-26.2624 3.9307 TD
+(timer0_count)Tj
+0 -3.4308 TD
+(timer1_count)Tj
+-15.763 3.4391 TD
+(1)Tj
+-0.0812 -3.6639 TD
+(2)Tj
+ET
+539.834 636.049 m
+104.683 636.049 l
+S
+BT
+7.1841 0 0 7.1841 111.2964 619.6286 Tm
+(2)Tj
+10.0115 3.6537 TD
+(mask revision)Tj
+ET
+285.311 636.049 m
+285.311 660.681 l
+S
+BT
+7.1841 0 0 7.1841 330.2126 645.8774 Tm
+(manufacturer_ID[11:8])Tj
+20.4123 -3.4224 TD
+(read-only)Tj
+ET
+endstream
+endobj
+3 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+9 0 obj
+<<
+/Length 3440
+>>
+stream
+BT
+/TT2 1 Tf
+7.1841 0 0 7.1841 131.7182 697.6273 Tm
+0 0 0 rg
+/GS1 gs
+0 Tc
+0 Tw
+(msb)Tj
+40.2506 0 TD
+(lsb)Tj
+ET
+0 0 0 RG
+1 J 2 j 0.667 w 6 M []0 d
+1 i 
+121.103 488.262 m
+121.103 693.522 l
+104.683 488.262 m
+104.683 693.522 l
+71.841 488.262 m
+71.841 693.522 l
+S
+BT
+7.1841 0 0 7.1841 76.3893 696.6011 Tm
+(Register)Tj
+0 -1 TD
+(Address)Tj
+ET
+539.834 685.312 m
+71.841 685.312 l
+162.155 685.312 m
+162.155 693.522 l
+203.207 685.312 m
+203.207 693.522 l
+244.259 685.312 m
+244.259 693.522 l
+285.311 685.312 m
+285.311 693.522 l
+326.363 685.312 m
+326.363 693.522 l
+367.415 685.312 m
+367.415 693.522 l
+408.467 685.312 m
+408.467 693.522 l
+449.519 488.262 m
+449.519 693.522 l
+S
+BT
+7.1841 0 0 7.1841 141.5387 689.417 Tm
+[(7)-5199.3(6)-5216(5)-4657.7(4)-5740.8(3)-5232.7(2)-5132.4(1)-4741.2(0)-6636.2(comments)]TJ
+ET
+539.834 488.262 m
+539.834 693.522 l
+S
+BT
+7.1841 0 0 7.1841 71.682 713.2467 Tm
+(Hydra rev0 SPI register definition:)Tj
+ET
+539.834 562.156 m
+104.683 562.156 l
+S
+BT
+7.1841 0 0 7.1841 86.7149 570.3661 Tm
+2.9176 Tc
+(90)Tj
+3.5028 -3.4286 TD
+0 Tc
+(1)Tj
+ET
+539.834 636.049 m
+71.841 636.049 l
+408.467 562.156 m
+408.467 586.787 l
+408.467 537.525 m
+408.467 562.156 l
+S
+BT
+7.1841 0 0 7.1841 415.7877 575.5891 Tm
+(enable_)Tj
+0 -1 TD
+(OpAmp0)Tj
+0.0351 -2.4307 TD
+(enable_)Tj
+0 -1 TD
+(OpAmp1)Tj
+ET
+285.311 562.156 m
+285.311 586.787 l
+285.311 537.525 m
+285.311 562.156 l
+S
+BT
+7.1841 0 0 7.1841 314.4922 571.9971 Tm
+(OpAmp0_input_select)Tj
+0 -3.4308 TD
+(OpAmp1_input_select)Tj
+/TT4 1 Tf
+0.6 0.6 0.6 rg
+-17.2162 3.4308 TD
+(reserved)Tj
+0 -3.4308 TD
+(reserved)Tj
+/TT2 1 Tf
+0 0 0 rg
+-14.6926 -3.6534 TD
+(10)Tj
+ET
+539.834 512.893 m
+104.683 512.893 l
+539.834 488.262 m
+71.841 488.262 l
+S
+BT
+7.1841 0 0 7.1841 111.2673 521.1038 Tm
+(0)Tj
+0.0852 -3.4286 TD
+(1)Tj
+ET
+408.467 512.893 m
+408.467 537.525 l
+408.467 488.262 m
+408.467 512.893 l
+S
+BT
+7.1841 0 0 7.1841 412.1877 526.3555 Tm
+(enable_)Tj
+0 -1 TD
+(TempSens0)Tj
+0.0351 -2.4307 TD
+(enable_)Tj
+0 -1 TD
+(TempSens1)Tj
+/TT4 1 Tf
+0.6 0.6 0.6 rg
+-23.4133 3.9307 TD
+(reserved)Tj
+0 -3.4307 TD
+(reserved)Tj
+ET
+539.834 611.418 m
+104.683 611.418 l
+408.467 586.787 m
+408.467 636.049 l
+S
+BT
+/TT2 1 Tf
+7.1841 0 0 7.1841 417.899 624.8827 Tm
+0 0 0 rg
+(enable_)Tj
+0 -1 TD
+(Buf0)Tj
+0 -2.4307 TD
+(enable_)Tj
+0 -1 TD
+(Buf1)Tj
+ET
+326.363 586.787 m
+326.363 636.049 l
+S
+BT
+7.1841 0 0 7.1841 350.6135 621.2906 Tm
+(Buf0_mode)Tj
+0 -3.4307 TD
+(Buf1_mode)Tj
+/TT4 1 Tf
+0.6 0.6 0.6 rg
+-21.093 3.4307 TD
+(reserved)Tj
+0 -3.4307 TD
+(reserved)Tj
+/TT2 1 Tf
+0 0 0 rg
+-15.6194 3.1994 TD
+2.8963 Tc
+(80)Tj
+3.4816 -3.191 TD
+0 Tc
+(1)Tj
+ET
+539.834 586.787 m
+71.841 586.787 l
+539.834 660.681 m
+104.683 660.681 l
+S
+BT
+7.1841 0 0 7.1841 86.7205 664.7858 Tm
+(7)Tj
+ET
+408.467 636.049 m
+408.467 685.312 l
+S
+BT
+7.1841 0 0 7.1841 417.899 674.1163 Tm
+(enable_)Tj
+0 -1 TD
+(PWM0)Tj
+0 -2.4308 TD
+(enable_)Tj
+0 -1 TD
+(PWM1)Tj
+ET
+244.259 660.681 m
+244.259 685.312 l
+S
+BT
+7.1841 0 0 7.1841 291.6563 670.5242 Tm
+(PWM0_input_source)Tj
+0 -3.4307 TD
+(PWM1_input_source)Tj
+ET
+244.259 636.049 m
+244.259 660.681 l
+S
+BT
+/TT4 1 Tf
+7.1841 0 0 7.1841 170.2829 670.5242 Tm
+0.6 0.6 0.6 rg
+(reserved)Tj
+T*
+(reserved)Tj
+/TT2 1 Tf
+0 0 0 rg
+-8.2148 3.2034 TD
+(0)Tj
+0.0852 -3.1951 TD
+(1)Tj
+ET
+539.834 537.525 m
+71.841 537.525 l
+244.259 562.156 m
+244.259 586.787 l
+244.259 537.525 m
+244.259 562.156 l
+S
+BT
+7.1841 0 0 7.1841 252.491 575.6491 Tm
+(Comp0_)Tj
+0 -1 TD
+(out)Tj
+0 -2.4307 TD
+(Comp1_)Tj
+0 -1 TD
+(out)Tj
+29.1169 3.9224 TD
+(Bit 4 is read-only)Tj
+0 -3.4308 TD
+(Bit 4 is read-only)Tj
+ET
+endstream
+endobj
+10 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+12 0 obj
+<<
+/Length 4265
+>>
+stream
+BT
+/TT2 1 Tf
+6.6581 0 0 6.6581 71.6236 700.2842 Tm
+0 0 0 rg
+/GS1 gs
+0 Tc
+0 Tw
+(SPI protocol definition)Tj
+ET
+0 0 0 RG
+1 J 2 j 0.618 w 6 M []0 d
+1 i 
+539.778 692.675 m
+71.812 692.675 l
+S
+BT
+6.6581 0 0 6.6581 71.7436 452.9852 Tm
+(Table 1:  Command words)Tj
+ET
+539.778 449.181 m
+71.812 449.181 l
+S
+BT
+6.6581 0 0 6.6581 71.8636 441.5714 Tm
+[(0000)-8262.1(No operation)]TJ
+0 -1.1429 TD
+(0001)Tj
+T*
+(0010)Tj
+10.2801 1.1429 TD
+(Write)Tj
+-0.018 -1.1429 TD
+(Read)Tj
+-0.018 -1.1429 TD
+(Simultaneous Read/Write)Tj
+-10.2441 0 TD
+(0011)Tj
+0 -1.1429 TD
+(0100)Tj
+T*
+[(0101)-8280.1(Write, 12-bit address)]TJ
+10.2621 1.1429 TD
+(Device reset)Tj
+-10.2621 -2.2857 TD
+[(0110)-8262.1(Read, 12-bit address)]TJ
+0 -1.1429 TD
+[(0111)-8244.1(Simultaneous Read/Write, 12-bit address)]TJ
+-0.1081 -1.1429 TD
+[(1000)-8352.2(Query register length)]TJ
+T*
+[(1001)-8370.2(Address offset Read/Write)]TJ
+T*
+[(1010)-8370.2(Device program \(if applicable\))]TJ
+T*
+[(1011)-8370.2(Device standby \(if implemented\))]TJ
+T*
+(1100)Tj
+T*
+(1101)Tj
+T*
+(1110)Tj
+T*
+[(1111)-8370.2(Extended command protocol \(device-dependent\))]TJ
+/TT4 1 Tf
+10.4063 2.2857 TD
+(Reserved)Tj
+0 -1.1429 TD
+(Reserved)Tj
+ET
+539.778 323.629 m
+71.812 323.629 l
+S
+BT
+/TT2 1 Tf
+6.6581 0 0 6.6581 140.0692 350.261 Tm
+(SPI protocol flags)Tj
+-10.2621 49.1429 TD
+(All input is in groups of 8 bits.  Each byte is input msb first.)Tj
+0 -8 TD
+(The first byte of a command always comprises 4 bits of a command word in the lower four bits.  The upper four bits are command-)Tj
+52.4858 0 TD
+(dependent.)Tj
+-52.4858 6.1644 TD
+(CSB pin must be low to enable an SPI transmission.  Data are clocked by pin SCK, with data valid on the rising edge of SCK.  Ou)Tj
+52.1602 0 TD
+(tput data are received on the SDO)Tj
+-52.1602 -1 TD
+(line.  SDO is held high-impedance when CSB is high.  SDO outputs become active on the falling edge of SCK.  SPI definition allo)Tj
+52.3545 0 TD
+(ws this to be changed to SDO active)Tj
+-52.3545 -1 TD
+(on the rising edge of SCK by applying a command word to the SPI \(see below\).)Tj
+0 -1.9988 TD
+(After CSB is set low, the SPI is always in the "idle" state, awaiting a new command.)Tj
+0.018 -4.5941 TD
+(Depending on the command word, the command byte may be followed by one byte, two bytes, a number of bytes equal to the size in )Tj
+53.4312 0 TD
+(bytes of the addressed)Tj
+-53.4312 -1 TD
+(register, or \(in streaming modes\) an arbitrary number of bytes. )Tj
+-0.018 -1.8194 TD
+(All commands except streaming modes \(read, write, and read/write\) end after a predetermined number of bytes.  Streaming modes e)Tj
+52.8701 0 TD
+(nd only after the end of the)Tj
+-52.8701 -1 TD
+(address space has been reached, or the CSB pin is pulled high.)Tj
+0 -7.5818 TD
+(For all read, write, and read/write commands, the address auto-increments by one for each byte read or written \(i.e., every 8 S)Tj
+50.2871 0 TD
+(CK cycles\).  In streaming modes,)Tj
+-50.2871 -1 TD
+(the address space is continuous, with the first byte of each register occupying the address following the last byte of the prev)Tj
+49.4307 0 TD
+(ious register.)Tj
+-49.4126 6.1491 TD
+(The address space is divided into registers and bytes.  Registers are numbered 0 to 15 and are addressed by the upper four bits)Tj
+50.3745 0 TD
+( of commands that require a)Tj
+-50.3745 -1 TD
+(register address,  Each register defines an arbitrarily large number of bytes, which are numbered from zero up, and are accesse)Tj
+50.561 0 TD
+(d in series from position zero.)Tj
+-50.561 -1 TD
+(Commands that specify only a register value will read to, or write from, the entire register beginning at the first byte and co)Tj
+49.374 0 TD
+(ntinuing to the last defined byte.)Tj
+-49.374 -1 TD
+(After the last defined byte has been read or written, the SPI returns to the idle state.  )Tj
+0 -4.9977 TD
+(For streaming mode commands, an additional byte is sent after the command/register byte, specifying a byte offset position in t)Tj
+50.96 0 TD
+(he register at which to begin)Tj
+-50.96 -1 TD
+(reading and/or writing data.  If this byte is value 255 \(all ones\), then it is followed by an additional byte, and the starting)Tj
+48.0996 0 TD
+( byte offset address is the addition)Tj
+-48.0996 -1 TD
+(of both values.)Tj
+-0.018 -2.583 TD
+(The 4-bit command words defined by the protocol are as follows:)Tj
+ET
+endstream
+endobj
+13 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+15 0 obj
+<<
+/Length 7650
+>>
+stream
+BT
+/TT2 1 Tf
+6.6581 0 0 6.6581 71.7436 692.675 Tm
+0 0 0 rg
+/GS1 gs
+0 Tc
+0 Tw
+[(No operation:)-3603.5(XX000000)]TJ
+19.428 -0.1045 TD
+(Address field is ignored.  Command is one byte only.  SPI returns to idle.  Upper two bits are always ignored.)Tj
+-19.41 -5.6098 TD
+[(Write:)-6557.7(AAAA0001)]TJ
+9.1119 -1.1429 TD
+(dddddddd)Tj
+T*
+(dddddddd)Tj
+0 -2.8571 TD
+(dddddddd)Tj
+0 -6.6581 6.6581 0 147.5145 635.4708 Tm
+(. . .)Tj
+6.6581 0 0 6.6581 201.2164 653.9272 Tm
+(Address is 4 bits and defines a major address.  Data are passed in the following bytes, up to the defined length of the)Tj
+0 -1 TD
+(register.  Register lengths are device-dependent.  At the end of data, the SPI returns to idle.)Tj
+-19.4461 -6.3232 TD
+[(Read:)-6797.4(AAAA0010)]TJ
+0 -6.6581 6.6581 0 147.5646 586.011 Tm
+(. . .)Tj
+6.6581 0 0 6.6581 132.5308 597.56 Tm
+(XXXXXXXX)Tj
+0 -1.1429 TD
+(XXXXXXXX)Tj
+0 -2.8571 TD
+(XXXXXXXX)Tj
+10.2982 2 TD
+(Address is 4 bits and defines a major address.  Data on SDI following the address/command byte are ignored.  For each)Tj
+0 -1 TD
+(8 bits clocked through SCK, register data are returned in SDO, up to the defined length of the register.  Register)Tj
+T*
+(lengths are device-dependent.  At the end of data, the SPI returns to idle.)Tj
+-19.428 -2.4286 TD
+(Simultaneous)Tj
+0 -1 TD
+(Read/Write:)Tj
+9.1299 0.5714 TD
+(AAAA0011)Tj
+0 -1.1429 TD
+(dddddddd)Tj
+T*
+(dddddddd)Tj
+0 -2.8571 TD
+(dddddddd)Tj
+0 -6.6581 6.6581 0 147.5724 532.7466 Tm
+(. . .)Tj
+6.6581 0 0 6.6581 201.0964 551.1988 Tm
+(Combines the read and write functions.  Existing register data are output to SDO, while new data are read by the slave)Tj
+0 -1 TD
+(from SDI and applied to the register.)Tj
+-19.428 -6.3225 TD
+[(Device reset:)-3900.8(00000100)]TJ
+19.428 -0.109 TD
+(The implementation of a hard reset is device-dependent, but generally will force the device to the initial power-up)Tj
+0 -1 TD
+(state.)Tj
+-10.2801 -1.7481 TD
+(pppp0100)Tj
+-9.1659 0 TD
+(Special reset:)Tj
+19.4461 -0.1185 TD
+(The device may define device-dependent specific reset states pppp = 1 to 14)Tj
+-19.41 -2.2825 TD
+(Write, 12-bit)Tj
+0 -1 TD
+(address:)Tj
+9.1119 0.5438 TD
+(AAAA0101)Tj
+-0.018 -1.1429 TD
+(aaaaaaaa)Tj
+0.018 -1.1429 TD
+(dddddddd)Tj
+T*
+(dddddddd)Tj
+0 -2.8571 TD
+(dddddddd)Tj
+0 -6.6581 6.6581 0 147.5349 437.6316 Tm
+(. . .)Tj
+6.6581 0 0 6.6581 201.0964 459.898 Tm
+(This mode of addressing accesses registers by byte.  The major address is given by AAAA and corresponds to the)Tj
+0 -1 TD
+(same major address used by the standard Read/Write commands.  The minor address aaaaaaaa gives a byte offset)Tj
+T*
+(from the beginning of register AAAA and may be used to write to a portion of a register.  The write does not terminate)Tj
+T*
+(at the end of the register, but continues into the following register address.  Transmission is terminated by raising the)Tj
+T*
+(CSB pin, or at the end of all defined register data.  If aaaaaaaa is 255, then an additional byte follows containing)Tj
+T*
+(further address data, and the sum of the address bytes indicates the starting offset position.)Tj
+0 -2.4315 TD
+(Read, 12-bit address and Read/Write, 12-bit address operate equivalently to their 4-bit address counterparts)Tj
+0 -1 TD
+(as does the Write, 12-bit address command.)Tj
+-19.41 -2.0353 TD
+(Query)Tj
+0 -1 TD
+(register)Tj
+T*
+(length:)Tj
+9.1119 2.2857 TD
+(AAAA1000)Tj
+0 -1.1429 TD
+(XXXXXXXX)Tj
+-0.0361 -1.1429 TD
+(\(XXXXXXXX\))Tj
+10.3522 1.6026 TD
+(Query the length of the register \(number of bytes\) at major address AAAA.  This byte is followed by one byte of output)Tj
+0 -1 TD
+(on SDO.  The value on SDI following the command/register byte is ignored.  A return value of 00000000 indicates)Tj
+T*
+(that the register does not exist.  If the register contains more than 254 bytes, then the value 11111111 is returned, and)Tj
+T*
+(there will be an additional byte following.  At the end of the transmission, the sum of the returned bytes is the register)Tj
+T*
+(byte length. )Tj
+0 -6.6581 6.6581 0 155.145 372.9534 Tm
+(. . .)Tj
+6.6581 0 0 6.6581 71.8636 345.5052 Tm
+(Address offset)Tj
+T*
+(read/write:)Tj
+9.1119 0.4694 TD
+(AAAA1001)Tj
+0 -1.0409 TD
+(BBBBxxxx)Tj
+10.3162 1.0228 TD
+(This optional command \(which may or may not be implemented by the device\) operates like the standard simultaneous)Tj
+0 -1 TD
+(Read/Write command.  However, it takes an additional input byte defining register BBBB.  Values written to the)Tj
+T*
+(device will be applied to register AAAA, while values read from the device will be read from register BBBB.  If)Tj
+T*
+(register AAAA is longer than register BBBB, then values past the end of BBBB are read as zero.  If register BBBB)Tj
+T*
+(is longer than register AAAA, then values past the end of register AAAA are ignored.  If BBBB is equal to AAAA,)Tj
+T*
+(then an additional byte aaaaaaaa specifies a byte offset within the same register.  Like the other commands specifying)Tj
+T*
+(a byte address, a value of 255 indicates an additional address offset byte following.)Tj
+-10.3162 3.8343 TD
+(dddddddd)Tj
+0 -1.1429 TD
+(dddddddd)Tj
+0 -2.8571 TD
+(dddddddd)Tj
+0 -6.6581 6.6581 0 147.5613 315.8844 Tm
+(. . .)Tj
+6.6581 0 0 6.6581 71.7436 285.5828 Tm
+[(Device program:)-2400.8(pppp1010)]TJ
+19.428 -0.1123 TD
+(If a device has non-volatile memory storage, then this command is a request to program the device memory.  The device)Tj
+0 -1 TD
+(may implement additional commands in field pppp)Tj
+-19.428 -1.7448 TD
+[(Device standby:)-2677.7(00001011)]TJ
+19.4461 -0.1218 TD
+(This command puts the device into standby mode, in which all onboard functions are powered down and only the SPI)Tj
+0 -1 TD
+(remains active.)Tj
+-19.4461 -1.7353 TD
+[(Device active:)-3293.2(11111011)]TJ
+19.428 -0.1132 TD
+(This command restores the active state of a device that has been placed into standby.)Tj
+-19.428 -1.7439 TD
+(Device power)Tj
+0 -1 TD
+(modes:)Tj
+9.1479 0.5714 TD
+(pppp1011)Tj
+10.2801 -0.11 TD
+(The device may optionally define device-dependent power states 1 to 14.)Tj
+-19.428 -2.3186 TD
+(SPI protocol)Tj
+0 -1 TD
+(flags:)Tj
+9.1479 0.5714 TD
+(00001100)Tj
+10.2801 -0.1195 TD
+(The device returns two bytes indicating which of the commands 0 through 15 are implemented by the device.  Each bit)Tj
+0 -1 TD
+(is set to 1 if the corresponding SPI protocol 4-bit command is implemented, 0 if it is not.  The first byte returned)Tj
+T*
+(corresponds to commands 0 to 7;  the second byte, commands 8 to 15.)Tj
+-19.428 -2.5948 TD
+(Command protocol)Tj
+0 -1 TD
+(flags:)Tj
+9.1299 1.1429 TD
+(cccc1100)Tj
+10.2982 -0.113 TD
+(For specific 4-bit command cccc, the device returns two bytes indicating which of the sub-commands 0 through 15 are )Tj
+0 -1 TD
+(implemented by the device.  For example, "01001100" requests the list of special resets implemented by the device.)Tj
+T*
+(If the device returns "00000011, 00000000", then two reset commands are implemented, command "00000100")Tj
+T*
+(\(device reset\), and "00010100" \(special reset, device-dependent\).)Tj
+-19.41 -2.7442 TD
+(Extended command)Tj
+0 -1 TD
+(protocol:)Tj
+9.1299 1.1429 TD
+(pppp1111)Tj
+10.2801 -0.1139 TD
+(A device may arbitrarily extend the SPI protocol by defining additional commands in the field pppp of command 1111.)Tj
+0 -1 TD
+(The number of bytes following the command is device-dependent.)Tj
+ET
+0 0 0 RG
+1 J 2 j 0.618 w 6 M []0 d
+1 i 
+539.778 704.089 m
+71.812 704.089 l
+S
+BT
+6.6581 0 0 6.6581 71.7436 707.8934 Tm
+(Description of SPI commands)Tj
+-0.018 -4.5714 TD
+[(SDO timing:)-4026.3(00ss0000)]TJ
+19.4461 -0.1429 TD
+(Defines signal timing for SDO.  If ss = 01, then SDO is valid on SCK falling edge \(default\).  If ss = 10, then SDO)Tj
+0 -1 TD
+(is valid on SCK rising edge.  Behavior remains in effect until a power-cycle or another SDO timing command.)Tj
+ET
+endstream
+endobj
+16 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+18 0 obj
+<<
+/Length 19668
+>>
+stream
+0.898 0.898 0.898 rg
+0.898 0.898 0.898 RG
+1 J 2 j 0.618 w 6 M []0 d
+/GS1 gs
+1 i 
+144.099 433.962 68.483 45.655 re
+B*
+235.41 433.962 68.483 45.655 re
+B*
+319.111 433.962 68.483 45.655 re
+B*
+402.812 433.962 68.483 45.655 re
+B*
+402.812 517.663 68.483 45.655 re
+B*
+0 0 0 RG
+402.812 517.663 68.483 45.655 re
+S
+0.898 0.898 0.898 RG
+326.72 517.663 38.046 45.655 re
+B*
+243.019 517.663 68.483 45.655 re
+B*
+144.099 517.663 68.483 45.655 re
+B*
+410.421 601.365 60.874 45.655 re
+B*
+376.18 601.365 26.632 45.655 re
+B*
+300.088 601.365 68.483 45.655 re
+B*
+216.387 601.365 68.483 45.655 re
+B*
+125.076 601.365 68.483 45.655 re
+B*
+0 0 0 RG
+144.099 517.663 68.483 45.655 re
+S
+BT
+/TT2 1 Tf
+6.6581 0 0 6.6581 165.4753 541.5156 Tm
+0 0 0 rg
+0 Tc
+0 Tw
+(SPI)Tj
+0 -1 TD
+(controller)Tj
+ET
+125.076 601.365 68.483 45.655 re
+S
+BT
+6.6581 0 0 6.6581 152.4936 621.9783 Tm
+(DAC)Tj
+ET
+216.387 601.365 68.483 45.655 re
+S
+BT
+6.6581 0 0 6.6581 243.804 621.9783 Tm
+(ADC)Tj
+ET
+300.088 601.365 68.483 45.655 re
+S
+BT
+6.6581 0 0 6.6581 320.9923 628.5764 Tm
+(Bandgap/)Tj
+T*
+(Voltage)Tj
+T*
+(Reference)Tj
+ET
+410.421 601.365 60.874 45.655 re
+S
+BT
+6.6581 0 0 6.6581 430.3719 621.9183 Tm
+(LDO)Tj
+ET
+402.812 433.962 68.483 45.655 re
+S
+BT
+6.6581 0 0 6.6581 421.9166 454.5747 Tm
+(PWM Core)Tj
+ET
+319.111 433.962 68.483 45.655 re
+S
+BT
+6.6581 0 0 6.6581 250.3381 541.5756 Tm
+(Poweron)Tj
+T*
+(Reset)Tj
+ET
+235.41 433.962 68.483 45.655 re
+S
+BT
+6.6581 0 0 6.6581 258.3223 454.5147 Tm
+(Op Amp)Tj
+ET
+144.099 433.962 68.483 45.655 re
+S
+BT
+6.6581 0 0 6.6581 161.4637 457.9037 Tm
+(Temperature)Tj
+T*
+(Sense)Tj
+ET
+98.444 567.123 15.218 15.218 re
+98.444 544.296 15.218 15.218 re
+98.444 521.468 15.218 15.218 re
+98.444 498.64 15.218 15.218 re
+S
+BT
+6.6581 0 0 6.6581 80.219 572.4486 Tm
+(SDI)Tj
+-0.3774 -3.4306 TD
+(SDO)Tj
+0.0375 -3.4216 TD
+(SCK)Tj
+0.1149 -3.4306 TD
+(CSB)Tj
+ET
+144.099 551.905 m
+128.881 551.905 l
+128.881 574.732 l
+113.662 574.732 l
+144.099 544.296 m
+121.272 544.296 l
+121.272 551.905 l
+113.662 551.905 l
+144.099 536.686 m
+121.272 536.686 l
+121.272 529.077 l
+113.662 529.077 l
+144.099 529.077 m
+128.881 529.077 l
+128.881 506.25 l
+113.662 506.25 l
+494.122 548.1 15.218 15.218 re
+494.122 517.663 15.218 15.218 re
+418.03 669.847 15.218 15.218 re
+448.467 669.847 15.218 15.218 re
+311.502 669.847 15.218 15.218 re
+341.938 669.847 15.218 15.218 re
+227.8 669.847 15.218 15.218 re
+258.237 669.847 15.218 15.218 re
+136.49 669.847 15.218 15.218 re
+166.927 669.847 15.218 15.218 re
+414.226 395.916 15.218 15.218 re
+444.663 395.916 15.218 15.218 re
+330.525 395.916 15.218 15.218 re
+360.961 395.916 15.218 15.218 re
+246.823 395.916 15.218 15.218 re
+277.26 395.916 15.218 15.218 re
+155.513 395.916 15.218 15.218 re
+185.95 395.916 15.218 15.218 re
+379.984 669.847 15.218 15.218 re
+494.122 456.79 15.218 15.218 re
+494.122 578.537 15.218 15.218 re
+494.122 608.974 15.218 15.218 re
+S
+BT
+6.6581 0 0 6.6581 423.7166 541.5756 Tm
+(Current)Tj
+0 -1 TD
+(Reference)Tj
+ET
+243.019 517.663 68.483 45.655 re
+S
+BT
+6.6581 0 0 6.6581 344.7469 457.9037 Tm
+(Input)Tj
+T*
+(Buffer)Tj
+ET
+98.444 669.847 15.218 15.218 re
+98.444 395.916 15.218 15.218 re
+494.122 395.916 15.218 15.218 re
+98.444 460.594 15.218 15.218 re
+494.122 669.847 15.218 15.218 re
+98.444 605.169 15.218 15.218 re
+S
+BT
+6.6581 0 0 6.6581 73.289 610.4976 Tm
+(dVDD)Tj
+0 -21.7124 TD
+(dGND)Tj
+ET
+326.72 517.663 38.046 45.655 re
+S
+BT
+6.6581 0 0 6.6581 332.6377 541.5156 Tm
+(Ring)Tj
+0 -1 TD
+(Oscillator)Tj
+ET
+326.72 542.393 m
+311.502 542.393 l
+326.72 538.589 m
+311.502 538.589 l
+243.019 544.296 m
+212.582 544.296 l
+243.019 540.491 m
+212.582 540.491 l
+159.318 601.365 m
+159.318 582.342 l
+223.996 582.342 l
+223.996 559.514 l
+212.582 559.514 l
+250.628 601.365 m
+250.628 582.342 l
+227.8 582.342 l
+227.8 555.709 l
+212.582 555.709 l
+334.329 601.365 m
+334.329 578.537 l
+231.605 578.537 l
+231.605 551.905 l
+212.582 551.905 l
+437.053 601.365 m
+437.053 574.732 l
+235.41 574.732 l
+235.41 548.1 l
+212.582 548.1 l
+402.812 540.491 m
+387.594 540.491 l
+387.594 506.25 l
+235.41 506.25 l
+235.41 536.686 l
+212.582 536.686 l
+437.053 479.617 m
+437.053 502.445 l
+231.605 502.445 l
+231.605 532.882 l
+212.582 532.882 l
+353.352 479.617 m
+353.352 498.64 l
+227.8 498.64 l
+227.8 529.077 l
+212.582 529.077 l
+269.651 479.617 m
+269.651 494.836 l
+223.996 494.836 l
+223.996 525.273 l
+212.582 525.273 l
+178.341 479.617 m
+178.341 494.836 l
+220.191 494.836 l
+220.191 521.468 l
+212.582 521.468 l
+163.122 433.962 m
+163.122 411.135 l
+S
+BT
+6.6581 0 0 6.6581 516.7001 462.2085 Tm
+(aGND)Tj
+0 22.8499 TD
+(aVDD)Tj
+ET
+193.559 433.962 m
+193.559 411.135 l
+254.433 433.962 m
+254.433 411.135 l
+284.869 433.962 m
+284.869 411.135 l
+338.134 433.962 m
+338.134 411.135 l
+368.571 433.962 m
+368.571 411.135 l
+421.835 433.962 m
+421.835 411.135 l
+452.272 433.962 m
+452.272 411.135 l
+S
+1 0 0 RG
+456.076 669.847 m
+456.076 647.02 l
+S
+0 0 0 RG
+425.64 669.847 m
+425.64 647.02 l
+S
+0.361 0.675 0.934 RG
+349.548 669.847 m
+349.548 647.02 l
+S
+0 0 0 RG
+319.111 669.847 m
+319.111 647.02 l
+265.846 669.847 m
+265.846 647.02 l
+174.536 669.847 m
+174.536 647.02 l
+144.099 669.847 m
+144.099 647.02 l
+494.122 525.273 m
+471.295 525.273 l
+494.122 555.709 m
+471.295 555.709 l
+S
+BT
+6.6581 0 0 6.6581 71.7436 714.7144 Tm
+(Hydra block diagram)Tj
+ET
+539.778 707.893 m
+71.812 707.893 l
+S
+BT
+6.6581 0 0 6.6581 289.2979 549.6072 Tm
+(timer)Tj
+ET
+284.869 521.468 22.828 15.218 re
+S
+BT
+6.6581 0 0 6.6581 289.2979 526.8258 Tm
+(timer)Tj
+ET
+376.18 601.365 26.632 45.655 re
+S
+BT
+6.6581 0 0 6.6581 379.2386 632.4233 Tm
+(1.8V)Tj
+0 -1 TD
+(digital)Tj
+T*
+(LDO)Tj
+ET
+0.934 0.604 0 RG
+387.594 669.847 m
+387.594 647.02 l
+S
+0 0 0 RG
+235.41 669.847 m
+235.41 647.02 l
+284.869 544.296 22.828 15.218 re
+S
+BT
+6.6581 0 0 6.6581 82.9313 346.4564 Tm
+[(Subsystem)-7096.4(Sources)]TJ
+ET
+482.709 342.652 m
+83.226 342.652 l
+S
+BT
+6.6581 0 0 6.6581 83.0512 331.238 Tm
+[(DAC)-9301(SPI \(value\))]TJ
+11.4304 -1.1429 TD
+(Vref \(min/max values\))Tj
+20.5783 3.4286 TD
+(Modes of operation)Tj
+0 -2.2857 TD
+(Differential output?)Tj
+-32.0087 -3.4286 TD
+[(ADC)-9319(timers \(for continuous triggering\))]TJ
+11.4304 -2.2857 TD
+(Vref/Bandgap)Tj
+0 -1.1429 TD
+(Temperature sensor)Tj
+T*
+(Input buffers)Tj
+-0.018 -1.1429 TD
+(OpAmp outputs)Tj
+-11.4123 -2.2857 TD
+(PWM)Tj
+-0.018 -8 TD
+[(OpAmp)-28804.5(Differential input)]TJ
+32.0267 -1.1429 TD
+(Differential output)Tj
+T*
+(Comparator stage)Tj
+-20.5783 10.2857 TD
+(timers \(to set output rate\))Tj
+0 -3.4286 TD
+(Input buffers)Tj
+20.5783 3.4286 TD
+(DC-to-duty cycle)Tj
+-20.5783 -1.1429 TD
+(Vref/Bandgap)Tj
+T*
+(Temperature sensor)Tj
+-0.018 -2.2857 TD
+(OpAmp outputs)Tj
+0.018 -5.7143 TD
+(Input buffers)Tj
+0 2.2857 TD
+(Vref/Bandgap)Tj
+0 -1.1429 TD
+(Temperature sensor)Tj
+-0.018 -2.2857 TD
+(OpAmp outputs)Tj
+-11.4123 -3.4286 TD
+[(Current Reference)-24633.7(Sink/Source selection)]TJ
+32.0087 -1.1429 TD
+(Current multiplier)Tj
+-20.5783 1.1429 TD
+(Vref/Bandgap)Tj
+-11.4304 -4.5714 TD
+[(Ring oscillator)-26092.6(Divider)]TJ
+ET
+0 0.934 0 RG
+265.846 601.365 m
+265.846 589.951 l
+296.283 589.951 l
+296.283 559.514 l
+S
+BT
+6.6581 0 0 6.6581 159.1552 300.8012 Tm
+(timers/oscillator \(for SAR\))Tj
+ET
+421.835 479.617 m
+421.835 494.836 l
+296.283 494.836 l
+296.283 521.468 l
+S
+0.934 0.604 0 RG
+182.145 563.319 m
+182.145 570.928 l
+406.617 570.928 l
+406.617 658.434 l
+387.594 658.434 l
+S
+0.361 0.675 0.934 RG
+387.594 601.365 m
+387.594 589.951 l
+372.375 589.951 l
+372.375 658.434 l
+349.548 658.434 l
+S
+0.934 0.604 0 RG
+349.548 563.319 m
+349.548 570.928 l
+273.456 563.319 m
+273.456 570.928 l
+258.237 601.365 m
+258.237 570.928 l
+S
+1 0 0 RG
+174.536 601.365 m
+174.536 586.146 l
+478.904 586.146 l
+478.904 658.434 l
+456.076 658.434 l
+189.754 479.617 m
+189.754 491.031 l
+478.904 491.031 l
+478.904 586.146 l
+281.065 479.617 m
+281.065 491.031 l
+364.766 479.617 m
+364.766 491.031 l
+448.467 479.617 m
+448.467 491.031 l
+448.467 563.319 m
+448.467 586.146 l
+341.938 601.365 m
+341.938 586.146 l
+S
+0.647 0.165 0.165 RG
+395.203 601.365 m
+395.203 593.755 l
+486.513 593.755 l
+486.513 616.583 l
+494.122 616.583 l
+459.881 601.365 m
+459.881 593.755 l
+S
+1 0 0 RG
+239.214 601.365 m
+239.214 586.146 l
+S
+0.361 0.675 0.934 RG
+425.64 601.365 m
+425.64 589.951 l
+387.594 589.951 l
+S
+0.361 0.675 0.934 rg
+427.542 594.707 m
+426.353 597.084 426.353 597.798 425.64 601.365 c
+424.926 597.798 424.926 597.084 423.737 594.707 c
+425.164 595.182 426.115 595.182 427.542 594.707 c
+f*
+0.647 0.165 0.165 rg
+461.783 594.707 m
+460.594 597.084 460.594 597.798 459.881 601.365 c
+459.168 597.798 459.168 597.084 457.979 594.707 c
+459.405 595.182 460.357 595.182 461.783 594.707 c
+f*
+397.105 594.707 m
+395.916 597.084 395.916 597.798 395.203 601.365 c
+394.489 597.798 394.489 597.084 393.301 594.707 c
+394.727 595.182 395.678 595.182 397.105 594.707 c
+f*
+0.934 0.604 0 rg
+351.45 569.977 m
+350.261 567.599 350.261 566.885 349.548 563.319 c
+348.834 566.885 348.834 567.599 347.645 569.977 c
+349.072 569.501 350.023 569.501 351.45 569.977 c
+f*
+275.358 569.977 m
+274.169 567.599 274.169 566.885 273.456 563.319 c
+272.742 566.885 272.742 567.599 271.553 569.977 c
+272.98 569.501 273.931 569.501 275.358 569.977 c
+f*
+184.048 569.977 m
+182.859 567.599 182.859 566.885 182.145 563.319 c
+181.432 566.885 181.432 567.599 180.243 569.977 c
+181.67 569.501 182.621 569.501 184.048 569.977 c
+f*
+260.14 594.707 m
+258.951 597.084 258.951 597.798 258.237 601.365 c
+257.524 597.798 257.524 597.084 256.335 594.707 c
+257.762 595.182 258.713 595.182 260.14 594.707 c
+f*
+0 0.934 0 rg
+267.749 594.707 m
+266.56 597.084 266.56 597.798 265.846 601.365 c
+265.133 597.798 265.133 597.084 263.944 594.707 c
+265.371 595.182 266.322 595.182 267.749 594.707 c
+f*
+423.737 486.275 m
+422.548 483.898 422.548 483.184 421.835 479.617 c
+421.122 483.184 421.122 483.898 419.933 486.275 c
+421.359 485.8 422.311 485.8 423.737 486.275 c
+f*
+1 0 0 rg
+450.37 486.275 m
+449.181 483.898 449.181 483.184 448.467 479.617 c
+447.754 483.184 447.754 483.898 446.565 486.275 c
+447.992 485.8 448.943 485.8 450.37 486.275 c
+f*
+366.668 486.275 m
+365.479 483.898 365.479 483.184 364.766 479.617 c
+364.053 483.184 364.053 483.898 362.864 486.275 c
+364.29 485.8 365.242 485.8 366.668 486.275 c
+f*
+282.967 486.275 m
+281.778 483.898 281.778 483.184 281.065 479.617 c
+280.351 483.184 280.351 483.898 279.163 486.275 c
+280.589 485.8 281.54 485.8 282.967 486.275 c
+f*
+191.657 486.275 m
+190.468 483.898 190.468 483.184 189.754 479.617 c
+189.041 483.184 189.041 483.898 187.852 486.275 c
+189.279 485.8 190.23 485.8 191.657 486.275 c
+f*
+176.438 594.707 m
+175.249 597.084 175.249 597.798 174.536 601.365 c
+173.823 597.798 173.823 597.084 172.634 594.707 c
+174.06 595.182 175.012 595.182 176.438 594.707 c
+f*
+241.117 594.707 m
+239.928 597.084 239.928 597.798 239.214 601.365 c
+238.501 597.798 238.501 597.084 237.312 594.707 c
+238.739 595.182 239.69 595.182 241.117 594.707 c
+f*
+343.841 594.707 m
+342.652 597.084 342.652 597.798 341.938 601.365 c
+341.225 597.798 341.225 597.084 340.036 594.707 c
+341.463 595.182 342.414 595.182 343.841 594.707 c
+f*
+450.37 569.977 m
+449.181 567.599 449.181 566.885 448.467 563.319 c
+447.754 566.885 447.754 567.599 446.565 569.977 c
+447.992 569.501 448.943 569.501 450.37 569.977 c
+f*
+457.487 658.44 m
+457.487 659.228 456.848 659.867 456.06 659.867 c
+455.272 659.867 454.633 659.228 454.633 658.44 c
+454.633 657.652 455.272 657.013 456.06 657.013 c
+456.848 657.013 457.487 657.652 457.487 658.44 c
+f*
+480.287 586.14 m
+480.287 586.928 479.648 587.567 478.86 587.567 c
+478.072 587.567 477.433 586.928 477.433 586.14 c
+477.433 585.352 478.072 584.713 478.86 584.713 c
+479.648 584.713 480.287 585.352 480.287 586.14 c
+f*
+449.927 586.14 m
+449.927 586.928 449.288 587.567 448.5 587.567 c
+447.712 587.567 447.073 586.928 447.073 586.14 c
+447.073 585.352 447.712 584.713 448.5 584.713 c
+449.288 584.713 449.927 585.352 449.927 586.14 c
+f*
+343.367 586.14 m
+343.367 586.928 342.728 587.567 341.94 587.567 c
+341.152 587.567 340.513 586.928 340.513 586.14 c
+340.513 585.352 341.152 584.713 341.94 584.713 c
+342.728 584.713 343.367 585.352 343.367 586.14 c
+f*
+240.647 586.14 m
+240.647 586.928 240.008 587.567 239.22 587.567 c
+238.432 587.567 237.793 586.928 237.793 586.14 c
+237.793 585.352 238.432 584.713 239.22 584.713 c
+240.008 584.713 240.647 585.352 240.647 586.14 c
+f*
+282.527 491.04 m
+282.527 491.828 281.888 492.467 281.1 492.467 c
+280.312 492.467 279.673 491.828 279.673 491.04 c
+279.673 490.252 280.312 489.613 281.1 489.613 c
+281.888 489.613 282.527 490.252 282.527 491.04 c
+f*
+366.167 491.04 m
+366.167 491.828 365.528 492.467 364.74 492.467 c
+363.952 492.467 363.313 491.828 363.313 491.04 c
+363.313 490.252 363.952 489.613 364.74 489.613 c
+365.528 489.613 366.167 490.252 366.167 491.04 c
+f*
+449.927 491.04 m
+449.927 491.828 449.288 492.467 448.5 492.467 c
+447.712 492.467 447.073 491.828 447.073 491.04 c
+447.073 490.252 447.712 489.613 448.5 489.613 c
+449.288 489.613 449.927 490.252 449.927 491.04 c
+f*
+0.934 0.604 0 rg
+389.027 658.44 m
+389.027 659.228 388.388 659.867 387.6 659.867 c
+386.812 659.867 386.173 659.228 386.173 658.44 c
+386.173 657.652 386.812 657.013 387.6 657.013 c
+388.388 657.013 389.027 657.652 389.027 658.44 c
+f*
+0.361 0.675 0.934 rg
+350.987 658.44 m
+350.987 659.228 350.348 659.867 349.56 659.867 c
+348.772 659.867 348.133 659.228 348.133 658.44 c
+348.133 657.652 348.772 657.013 349.56 657.013 c
+350.348 657.013 350.987 657.652 350.987 658.44 c
+f*
+389.027 589.92 m
+389.027 590.708 388.388 591.347 387.6 591.347 c
+386.812 591.347 386.173 590.708 386.173 589.92 c
+386.173 589.132 386.812 588.493 387.6 588.493 c
+388.388 588.493 389.027 589.132 389.027 589.92 c
+f*
+0 0 0 rg
+161.22 594.707 m
+160.031 597.084 160.031 597.798 159.318 601.365 c
+158.604 597.798 158.604 597.084 157.415 594.707 c
+158.842 595.182 159.793 595.182 161.22 594.707 c
+f*
+252.53 594.707 m
+251.341 597.084 251.341 597.798 250.628 601.365 c
+249.915 597.798 249.915 597.084 248.726 594.707 c
+250.152 595.182 251.104 595.182 252.53 594.707 c
+f*
+336.232 594.707 m
+335.043 597.084 335.043 597.798 334.329 601.365 c
+333.616 597.798 333.616 597.084 332.427 594.707 c
+333.854 595.182 334.805 595.182 336.232 594.707 c
+f*
+438.956 594.707 m
+437.767 597.084 437.767 597.798 437.053 601.365 c
+436.34 597.798 436.34 597.084 435.151 594.707 c
+436.578 595.182 437.529 595.182 438.956 594.707 c
+f*
+252.53 592.804 m
+251.341 590.426 251.341 589.713 250.628 586.146 c
+249.915 589.713 249.915 590.426 248.726 592.804 c
+250.152 592.329 251.104 592.329 252.53 592.804 c
+f*
+242.068 542.393 m
+239.69 543.582 238.976 543.582 235.41 544.296 c
+238.976 545.009 239.69 545.009 242.068 546.198 c
+241.592 544.771 241.592 543.82 242.068 542.393 c
+f*
+236.361 538.589 m
+238.739 539.778 239.452 539.778 243.019 540.491 c
+239.452 541.204 238.739 541.204 236.361 542.393 c
+236.836 540.967 236.836 540.015 236.361 538.589 c
+f*
+318.16 540.491 m
+315.782 541.68 315.068 541.68 311.502 542.393 c
+315.068 543.107 315.782 543.107 318.16 544.296 c
+317.684 542.869 317.684 541.918 318.16 540.491 c
+f*
+318.16 536.686 m
+315.782 537.875 315.068 537.875 311.502 538.589 c
+315.068 539.302 315.782 539.302 318.16 540.491 c
+317.684 539.064 317.684 538.113 318.16 536.686 c
+f*
+396.154 538.589 m
+398.532 539.778 399.245 539.778 402.812 540.491 c
+399.245 541.204 398.532 541.204 396.154 542.393 c
+396.63 540.967 396.63 540.015 396.154 538.589 c
+f*
+176.438 486.275 m
+177.627 483.898 177.627 483.184 178.341 479.617 c
+179.054 483.184 179.054 483.898 180.243 486.275 c
+178.816 485.8 177.865 485.8 176.438 486.275 c
+f*
+267.749 486.275 m
+268.938 483.898 268.938 483.184 269.651 479.617 c
+270.364 483.184 270.364 483.898 271.553 486.275 c
+270.127 485.8 269.175 485.8 267.749 486.275 c
+f*
+351.45 486.275 m
+352.639 483.898 352.639 483.184 353.352 479.617 c
+354.066 483.184 354.066 483.898 355.255 486.275 c
+353.828 485.8 352.877 485.8 351.45 486.275 c
+f*
+435.151 486.275 m
+436.34 483.898 436.34 483.184 437.053 479.617 c
+437.767 483.184 437.767 483.898 438.956 486.275 c
+437.529 485.8 436.578 485.8 435.151 486.275 c
+f*
+139.343 546.198 m
+136.966 545.009 136.252 545.009 132.685 544.296 c
+136.252 543.582 136.966 543.582 139.343 542.393 c
+138.868 543.82 138.868 544.771 139.343 546.198 c
+f*
+133.637 538.589 m
+136.014 537.4 136.728 537.4 140.295 536.686 c
+136.728 535.973 136.014 535.973 133.637 534.784 c
+134.112 536.211 134.112 537.162 133.637 538.589 c
+f*
+133.637 530.98 m
+136.014 529.791 136.728 529.791 140.295 529.077 c
+136.728 528.364 136.014 528.364 133.637 527.175 c
+134.112 528.602 134.112 529.553 133.637 530.98 c
+f*
+133.637 553.807 m
+136.014 552.618 136.728 552.618 140.295 551.905 c
+136.728 551.191 136.014 551.191 133.637 550.003 c
+134.112 551.429 134.112 552.38 133.637 553.807 c
+f*
+336.232 427.304 m
+337.42 429.682 337.42 430.395 338.134 433.962 c
+338.847 430.395 338.847 429.682 340.036 427.304 c
+338.609 427.78 337.658 427.78 336.232 427.304 c
+f*
+366.668 427.304 m
+367.857 429.682 367.857 430.395 368.571 433.962 c
+369.284 430.395 369.284 429.682 370.473 427.304 c
+369.046 427.78 368.095 427.78 366.668 427.304 c
+f*
+419.933 417.793 m
+421.122 415.415 421.122 414.701 421.835 411.135 c
+422.548 414.701 422.548 415.415 423.737 417.793 c
+422.311 417.317 421.359 417.317 419.933 417.793 c
+f*
+450.37 417.793 m
+451.558 415.415 451.558 414.701 452.272 411.135 c
+452.985 414.701 452.985 415.415 454.174 417.793 c
+452.747 417.317 451.796 417.317 450.37 417.793 c
+f*
+282.967 417.793 m
+284.156 415.415 284.156 414.701 284.869 411.135 c
+285.583 414.701 285.583 415.415 286.772 417.793 c
+285.345 417.317 284.394 417.317 282.967 417.793 c
+f*
+252.53 417.793 m
+253.719 415.415 253.719 414.701 254.433 411.135 c
+255.146 414.701 255.146 415.415 256.335 417.793 c
+254.908 417.317 253.957 417.317 252.53 417.793 c
+f*
+191.657 417.793 m
+192.846 415.415 192.846 414.701 193.559 411.135 c
+194.272 414.701 194.272 415.415 195.461 417.793 c
+194.035 417.317 193.083 417.317 191.657 417.793 c
+f*
+161.22 417.793 m
+162.409 415.415 162.409 414.701 163.122 411.135 c
+163.836 414.701 163.836 415.415 165.025 417.793 c
+163.598 417.317 162.647 417.317 161.22 417.793 c
+f*
+142.197 663.189 m
+143.386 665.567 143.386 666.281 144.099 669.847 c
+144.813 666.281 144.813 665.567 146.002 663.189 c
+144.575 663.665 143.624 663.665 142.197 663.189 c
+f*
+172.634 663.189 m
+173.823 665.567 173.823 666.281 174.536 669.847 c
+175.249 666.281 175.249 665.567 176.438 663.189 c
+175.012 663.665 174.06 663.665 172.634 663.189 c
+f*
+233.507 663.189 m
+234.696 665.567 234.696 666.281 235.41 669.847 c
+236.123 666.281 236.123 665.567 237.312 663.189 c
+235.885 663.665 234.934 663.665 233.507 663.189 c
+f*
+263.944 663.189 m
+265.133 665.567 265.133 666.281 265.846 669.847 c
+266.56 666.281 266.56 665.567 267.749 663.189 c
+266.322 663.665 265.371 663.665 263.944 663.189 c
+f*
+317.209 663.189 m
+318.397 665.567 318.397 666.281 319.111 669.847 c
+319.824 666.281 319.824 665.567 321.013 663.189 c
+319.586 663.665 318.635 663.665 317.209 663.189 c
+f*
+423.737 663.189 m
+424.926 665.567 424.926 666.281 425.64 669.847 c
+426.353 666.281 426.353 665.567 427.542 663.189 c
+426.115 663.665 425.164 663.665 423.737 663.189 c
+f*
+487.464 557.612 m
+489.842 556.423 490.556 556.423 494.122 555.709 c
+490.556 554.996 489.842 554.996 487.464 553.807 c
+487.94 555.234 487.94 556.185 487.464 557.612 c
+f*
+487.464 527.175 m
+489.842 525.986 490.556 525.986 494.122 525.273 c
+490.556 524.559 489.842 524.559 487.464 523.37 c
+487.94 524.797 487.94 525.748 487.464 527.175 c
+f*
+0.934 0.604 0 rg
+389.496 663.189 m
+388.307 665.567 388.307 666.281 387.594 669.847 c
+386.88 666.281 386.88 665.567 385.691 663.189 c
+387.118 663.665 388.069 663.665 389.496 663.189 c
+f*
+1 0 0 rg
+457.979 663.189 m
+456.79 665.567 456.79 666.281 456.076 669.847 c
+455.363 666.281 455.363 665.567 454.174 663.189 c
+455.601 663.665 456.552 663.665 457.979 663.189 c
+f*
+0.361 0.675 0.934 rg
+351.45 663.189 m
+350.261 665.567 350.261 666.281 349.548 669.847 c
+348.834 666.281 348.834 665.567 347.645 663.189 c
+349.072 663.665 350.023 663.665 351.45 663.189 c
+f*
+endstream
+endobj
+19 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+6 0 obj
+<<
+/Type /ExtGState
+/SA false
+/SM 0.02
+/OP false
+/op false
+/OPM 1
+/BG2 /Default
+/UCR2 /Default
+/HT /Default
+/TR2 /Default
+>>
+endobj
+20 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 662
+/Descent -250
+/Flags 34
+/FontBBox [-168 -218 1000 898]
+/FontName /Times-Roman
+/ItalicAngle 0
+/StemV 84
+/XHeight 450
+/StemH 84
+>>
+endobj
+21 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 653
+/Descent -250
+/Flags 98
+/FontBBox [-169 -217 1010 883]
+/FontName /Times-Italic
+/ItalicAngle -15
+/StemV 76
+/XHeight 441
+/StemH 76
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 122
+/Widths [250 0 408 0 0 0 0 0 333 333 0 0 250 333 250 278 
+500 500 500 500 500 500 500 500 500 500 278 278 0 564 0 444 
+0 722 667 667 722 611 556 722 722 333 0 722 611 889 722 722 
+556 722 667 556 611 722 722 944 722 0 0 333 0 333 0 500 
+0 444 500 444 500 444 333 500 500 278 278 500 278 778 500 500 
+500 500 333 389 278 500 500 722 500 500 444 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Times-Roman
+/FontDescriptor 20 0 R
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 82
+/LastChar 118
+/Widths [611 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 500 444 0 0 0 0 0 0 0 0 0 0 0 0 
+389 389 0 0 444 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Times-Italic
+/FontDescriptor 21 0 R
+>>
+endobj
+1 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 3 0 R
+/Contents 2 0 R
+>>
+endobj
+8 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 10 0 R
+/Contents 9 0 R
+>>
+endobj
+11 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 13 0 R
+/Contents 12 0 R
+>>
+endobj
+14 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 16 0 R
+/Contents 15 0 R
+>>
+endobj
+17 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 19 0 R
+/Contents 18 0 R
+>>
+endobj
+22 0 obj
+<<
+/S /D
+>>
+endobj
+23 0 obj
+<<
+/Nums [0 22 0 R ]
+>>
+endobj
+7 0 obj
+<<
+/Type /Pages
+/Kids [1 0 R 8 0 R 11 0 R 14 0 R 17 0 R]
+/Count 5
+/MediaBox [0 0 612 792]
+>>
+endobj
+24 0 obj
+<<
+/CreationDate (D:20150226174141-08'00')
+/ModDate (D:20150226174141-08'00')
+/Producer (PSNormalizer.framework)
+>>
+endobj
+25 0 obj
+<<
+/Type /Catalog
+/Pages 7 0 R
+/PageLabels 23 0 R
+>>
+endobj
+xref
+0 26
+0000000000 65535 f 
+0000043842 00000 n 
+0000000016 00000 n 
+0000006806 00000 n 
+0000043090 00000 n 
+0000043589 00000 n 
+0000042553 00000 n 
+0000044320 00000 n 
+0000043922 00000 n 
+0000006912 00000 n 
+0000010404 00000 n 
+0000044003 00000 n 
+0000010511 00000 n 
+0000014829 00000 n 
+0000044086 00000 n 
+0000014936 00000 n 
+0000022639 00000 n 
+0000044169 00000 n 
+0000022735 00000 n 
+0000042457 00000 n 
+0000042693 00000 n 
+0000042890 00000 n 
+0000044252 00000 n 
+0000044280 00000 n 
+0000044428 00000 n 
+0000044560 00000 n 
+trailer
+<<
+/Size 26
+/Root 25 0 R
+/Info 24 0 R
+/ID [<72e309ce468a537efd92e039008d81da><72e309ce468a537efd92e039008d81da>]
+>>
+startxref
+44629
+%%EOF
